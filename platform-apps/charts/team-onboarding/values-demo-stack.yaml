@@ -1,0 +1,8 @@
+scmAppsetRequeueAfterSeconds: 30
+multiStageKargoAppSetHelmRepo: https://github.com/siddarthbharadwaj02/kubrix-vinay
+
+destinationClusters:
+  - name: in-cluster
+    allowedTeams: [".*"]
+
+teams: []

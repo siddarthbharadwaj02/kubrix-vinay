@@ -4,17 +4,9 @@ default:
 
 applications:
 
-  - name: ingress-nginx
-    annotations:
-      argocd.argoproj.io/sync-wave: "-11"
-
   - name: cert-manager
     annotations:
       argocd.argoproj.io/sync-wave: "-10"
-
-  - name: external-dns
-    annotations:
-      argocd.argoproj.io/sync-wave: "-9" 
 
   - name: crossplane
     annotations:
@@ -75,28 +67,6 @@ applications:
       - ServerSideApply=true
 
   - name: mimir
-
-  - name: falco
-    annotations:
-      argocd.argoproj.io/compare-options: ServerSideDiff=true
-    helmOptions:
-      skipCrds: true
-    syncOptions:
-      - ServerSideApply=true
-
-  - name: kyverno
-    syncOptions:
-      - ServerSideApply=true
-
-  - name: kubevirt-manager
-
-  - name: kubevirt
-
-  - name: velero
-
-  - name: velero-ui
-
-  - name: minio
 
   - name: backstage
     annotations:

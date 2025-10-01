@@ -1,6 +1,6 @@
 # Onboarding teams
 
-New teams can simply onboard themselves by [executing the 'team-onboarding' template](https://backstage.demo.kubrix.cloud/create/templates/default/team-onboarding) or by clicking "Choose" in the "Team-Onboarding" template here: https://backstage.demo.kubrix.cloud/create
+New teams can simply onboard themselves by [executing the 'team-onboarding' template](https://backstage.127-0-0-1.nip.io/create/templates/default/team-onboarding) or by clicking "Choose" in the "Team-Onboarding" template here: https://backstage.127-0-0-1.nip.io/create
 
 ![image](../../img/team-onboarding-1.png)
 
