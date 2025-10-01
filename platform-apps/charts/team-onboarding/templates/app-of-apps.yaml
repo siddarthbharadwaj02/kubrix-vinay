@@ -1,0 +1,27 @@
+{{- range .Values.teams }}
+{{- if .appOfAppsRepo -}}
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: {{ .name }}-app-of-apps
+  namespace: adn-{{ .name }}
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: adn-{{ .name }}
+    name: "in-cluster"
+  project: {{ .name }}-project
+  source:
+    path:  {{ .appOfAppsRepo.path }}
+    repoURL: {{ .appOfAppsRepo.repoURL }}
+    targetRevision:  {{ .appOfAppsRepo.revision }}
+    directory:
+      recurse: true
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+---
+{{- end }}
+{{- end }}

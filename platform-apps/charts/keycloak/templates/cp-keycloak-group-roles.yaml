@@ -1,0 +1,28 @@
+apiVersion: group.keycloak.crossplane.io/v1alpha1
+kind: Roles
+metadata:
+  name: backstage-default-group-roles
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+    argocd.argoproj.io/sync-wave: "4"
+spec:
+  deletionPolicy: Delete
+  forProvider:
+    exhaustive: false
+    groupIdRef:
+      name: backstage-admin
+    realmIdRef: 
+      name: {{ .Values.kubrix.keycloak.realm.realmid }}
+    roleIdsRefs:
+      - name: builtin-{{ .Values.kubrix.keycloak.realm.realmid }}-realm-management-view-users
+      - name: builtin-{{ .Values.kubrix.keycloak.realm.realmid }}-realm-management-query-groups
+      - name: builtin-{{ .Values.kubrix.keycloak.realm.realmid }}-realm-management-query-users
+    roleIdsSelector:
+      matchLabels:
+        defaultRole: 'true'
+        realmName: {{ .Values.kubrix.keycloak.realm.realmid }}
+  initProvider: {}
+  managementPolicies:
+    - '*'
+  providerConfigRef:
+    name: sx-keycloak-config

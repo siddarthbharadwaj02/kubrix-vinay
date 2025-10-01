@@ -1,0 +1,20 @@
+---
+apiVersion: realm.keycloak.crossplane.io/v1alpha1
+kind: Realm
+metadata:
+  name: {{ .Values.kubrix.keycloak.realm.realmid }}
+  labels:
+    kubrix.io/realm: {{ .Values.kubrix.keycloak.realm.realmid }}
+  annotations:
+    link.argocd.argoproj.io/external-link: https://keycloak{{ .Values.kubrix.keycloak.domainName }}/admin/master/console/#/{{ .Values.kubrix.keycloak.realm.realmid }}
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+    argocd.argoproj.io/sync-wave: "1"
+spec:
+  forProvider:
+    realm: {{ .Values.kubrix.keycloak.realm.realmid }}
+    displayName: {{ .Values.kubrix.keycloak.realm.realmid }}
+    attributes:
+      frontendUrl: https://keycloak{{ .Values.kubrix.keycloak.domainName }}
+  deletionPolicy: "Delete"
+  providerConfigRef:
+    name: "{{ .Release.Name }}-config"

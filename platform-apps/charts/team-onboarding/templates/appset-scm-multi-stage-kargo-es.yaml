@@ -1,0 +1,28 @@
+{{- range .Values.teams }}
+{{- if .multiStageKargoAppSet }}
+apiVersion: external-secrets.io/v1
+kind: ExternalSecret
+metadata:
+  name: {{ .name }}-secret
+  namespace: adn-{{ .name }}
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+spec:
+  refreshInterval: "15s"
+  secretStoreRef:
+    name: vault-backend
+    kind: ClusterSecretStore
+  target:
+    name: {{ .name }}-appset-github-token
+    template:
+      data:
+        token: "{{ `{{ .KUBRIX_ARGOCD_APPSET_TOKEN }}` }}"
+  data:
+  - secretKey: KUBRIX_ARGOCD_APPSET_TOKEN
+    remoteRef:
+      key: kubrix-kv/data/{{ .name }}/delivery
+      property: KUBRIX_ARGOCD_APPSET_TOKEN
+---
+{{- end }}
+{{- end }}
+

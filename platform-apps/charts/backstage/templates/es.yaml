@@ -1,0 +1,102 @@
+{{- if eq .Values.backstage.backstage.appConfig.backend.database.client "pg"  }}
+---
+apiVersion: external-secrets.io/v1
+kind: ExternalSecret
+metadata:
+  name: backstage-db-secrets
+spec:
+  refreshInterval: 1m
+  secretStoreRef:
+    name: vault-backend
+    kind: ClusterSecretStore
+  target:
+    name: backstage-db-secrets
+    template:
+      type: Opaque
+      data:
+        POSTGRES_HOST: "{{ `{{ .pgbackstagehost }}` }}"
+        POSTGRES_PORT: "{{ `{{ .pgbackstageport }}` }}"
+        POSTGRES_USER: "{{ `{{ .pgbackstageusername }}` }}"
+        POSTGRES_PASSWORD: "{{ `{{ .pgbackstagepassword }}` }}"
+  data:
+  - secretKey: pgbackstageusername
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstageusername
+  - secretKey: pgbackstagepassword
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstagepassword
+  - secretKey: pgbackstagehost
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstagehost
+  - secretKey: pgbackstageport
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstageport
+---
+apiVersion: external-secrets.io/v1
+kind: ExternalSecret
+metadata:
+  name: cnpg-backstage-secret
+  namespace: backstage
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+spec:
+  refreshInterval: "15s"
+  secretStoreRef:
+    name: vault-backend
+    kind: ClusterSecretStore
+  target:
+    name: cnpg-backstage-secret
+    template:
+      type: kubernetes.io/basic-auth
+      metadata:
+        labels:
+          cnpg.io/reload: "true"
+      data:
+        username: "{{ `{{ .pgbackstageusername }}` }}"
+        password: "{{ `{{ .pgbackstagepassword }}` }}"
+  data:
+  - secretKey: pgbackstageusername
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstageusername
+  - secretKey: pgbackstagepassword
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstagepassword
+---
+apiVersion: external-secrets.io/v1
+kind: ExternalSecret
+metadata:
+  name: cnpg-superuser-secret
+  namespace: backstage
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+spec:
+  refreshInterval: "15s"
+  secretStoreRef:
+    name: vault-backend
+    kind: ClusterSecretStore
+  target:
+    name: cnpg-superuser-secret
+    template:
+      type: kubernetes.io/basic-auth
+      metadata:
+        labels:
+          cnpg.io/reload: "true"
+      data:
+        username: "{{ `{{ .pgbackstagesuperuser }}` }}"
+        password: "{{ `{{ .pgbackstagesuperuserpassword }}` }}"
+  data:
+  - secretKey: pgbackstagesuperuser
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstagesuperuser
+  - secretKey: pgbackstagesuperuserpassword
+    remoteRef:
+      key: kubrix-kv/data/cnpg/base
+      property: pgbackstagesuperuserpassword
+{{- end }}

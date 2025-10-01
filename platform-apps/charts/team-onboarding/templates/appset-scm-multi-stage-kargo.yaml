@@ -1,0 +1,60 @@
+{{- range $team := .Values.teams }}
+{{- if $team.multiStageKargoAppSet }}
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: {{ $team.name }}-appset
+  namespace: adn-{{ .name }}
+spec:
+  goTemplate: true
+  goTemplateOptions: ["missingkey=error"]
+  generators:
+  - scmProvider:
+      cloneProtocol: https
+      {{- with $team.multiStageKargoAppSet.gitlab }}
+      gitlab:
+        group: {{ .group }}
+        api: {{ .api }}
+        tokenRef:
+          secretName: {{ $team.name }}-appset-github-token
+          key: token
+      {{- end }}
+      {{- with $team.multiStageKargoAppSet.github }}
+      github:
+        # The GitHub organization to scan.
+        organization: {{ .organization }}
+        tokenRef:
+          secretName: {{ $team.name }}-appset-github-token
+          key: token
+      {{- end }}
+      filters:
+      - repositoryMatch: ^{{ .name }}
+        pathsExist: [app-stages.yaml]
+      requeueAfterSeconds: {{ $.Values.scmAppsetRequeueAfterSeconds }}
+  template:
+    metadata:
+      name: '{{`{{ .repository }}`}}'
+      finalizers:
+      - resources-finalizer.argocd.argoproj.io
+    spec:
+      project: {{ $team.name }}-project
+      sources:
+      - repoURL: {{ $.Values.multiStageKargoAppSetHelmRepo }}
+        targetRevision: '{{ $.Values.default.targetRevision }}'
+        path: team-apps/onboarding-apps-charts/multi-stage-app-with-kargo-pipeline
+        helm:
+          valueFiles:
+          - $values/app-stages.yaml
+      - repoURL: '{{`{{ .url }}`}}'
+        targetRevision: main
+        ref: values
+      destination:
+        server: https://kubernetes.default.svc
+        namespace: adn-{{ .name }}
+      syncPolicy:
+        automated:
+          selfHeal: true
+          prune: true
+---
+{{- end }}
+{{- end }}

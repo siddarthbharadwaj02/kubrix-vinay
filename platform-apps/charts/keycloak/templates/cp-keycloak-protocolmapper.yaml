@@ -1,0 +1,28 @@
+apiVersion: client.keycloak.crossplane.io/v1alpha1
+kind: ProtocolMapper
+metadata:
+  name: openid-user-attribute-mapper
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+    argocd.argoproj.io/sync-wave: "3"
+spec:
+  forProvider:
+    clientScopeIdSelector:
+      matchLabels:
+        kubrix.io/clientscope: groups
+    realmIdRef:
+      name: {{ $.Values.kubrix.keycloak.realm.realmid }}
+    protocol: openid-connect
+    protocolMapper: oidc-group-membership-mapper
+    name: groups
+    config:
+      "claim.name": "groups"
+      "userinfo.token.claim": "true"
+      "access.token.claim": "true"
+      "id.token.claim": "true"
+      "full.path": "false"
+      "introspection.token.claim": "true"
+      "lightweight.claim": "false"
+#  managementPolicies: ["Observe"]
+  providerConfigRef:
+    name: "{{ .Release.Name }}-config"

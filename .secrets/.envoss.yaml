@@ -1,0 +1,129 @@
+# Baseenvironment variables
+# For Demo Purposes they can be used "as is" but for production they should be changed
+
+#  - application: "<application name>"
+#    path: "<path to secret in vault>"
+#    namespace: "<namespace where secret should be created>"
+#    secretType: "<Opaque, tls, auth,... "
+#    secretname: <secretname> 
+#    stringData:
+#      rootPassword: "root12345"
+#      API_KEY: "dynamic:32:hex"
+#      API_SECRET: "dynamic:16:alphanumeric"
+
+secrets:
+  - application: "argocd"
+    path: "argocd/base"
+    namespace: "argocd"
+    secretname: argocd-secret
+    labels:
+      app.kubernetes.io/name: argocd-secret
+      app.kubernetes.io/part-of: argocd
+    secretType: "Opaque"
+    stringData:
+      server.secretkey: "dynamic:44:hex"
+  - application: "keycloak"
+    path: "keycloak/base"
+    namespace: "keycloak"
+    secretname: keycloak-credentials
+    labels:
+      type: provider-credentials
+    secretType: "Opaque"
+    stringData:
+      username: "admin"
+      password: "dynamic:12:hex"
+      url: "http://kubrix-keycloak-service.keycloak.svc.cluster.local:8080"
+      client_id: "admin-cli"
+      realm: "master"
+      tls_insecure_skip_verify: true
+  # sx-keycloak-credentials
+  # can get commented out when no users are in keycloak values file but users are maintained in federated IDP
+  - application: "keycloak"
+    path: "keycloak/users"
+    namespace: "keycloak"
+    secretname: cp-keycloak-users-secret
+    secretType: "Opaque"
+    stringData:
+  # must match users from keycloak values file
+      demouser: "dynamic:12:hex" #dynamic
+      demoadmin: "dynamic:12:hex" #dynamic
+  # sx-backstage demo users
+  - application: "backstage"
+    path: "portal/backstage/base"
+    namespace: "backstage"
+    secretname: sx-cnp-secret 
+    secretType: "Opaque"
+    labels:
+      app: sx-cnp-secret
+    stringData:
+      BACKEND_SECRET: "dynamic:32:hex"
+      EXTERNAL_ACCESS_TOKEN: "dynamic:32:hex"
+      GITHUB_CLIENTID: "change-this"
+      GITHUB_CLIENTSECRET: "change-this"
+  # keycloak-client-credentials
+  - application: "keycloak"
+    path: "keycloak/oidc"
+    namespace: "keycloak"
+    secretname: keycloak-client-credentials
+    secretType: "Opaque"
+    stringData:
+      # clientsecret for keycloak clients
+      backstage: "dynamic:12:hex"
+      vault: "dynamic:12:hex"
+  # velero secrets
+  - application: "velero"
+    path: "velero/base"
+    namespace: "velero"
+    secretname: velero-repo-credentials
+    secretType: "Opaque"
+    stringData:
+      repositorypassword: "dynamic:32:hex"
+  # velero-ui secrets
+  - application: "velero-ui"
+    path: "velero-ui/base"
+    namespace: "velero-ui"
+    secretname: velero-ui-credential
+    secretType: "Opaque"
+    stringData:
+      username: "admin"
+      password: "dynamic:12:hex"
+  # minio secrets
+  - application: "minio"
+    path: "minio/base"
+    namespace: "minio"
+    secretname: minio-admin-secret
+    secretType: "Opaque"
+    stringData:
+      rootPassword: "dynamic:12:hex"
+      rootUser: "root"
+      username: "minio"
+      password: "dynamic:12:hex"
+  # cnpg backstage secrets
+  - application: "cnpg"
+    path: "cnpg/base"
+    namespace: "cnpg"
+    secretname: cnpg-creds
+    secretType: "Opaque"
+    stringData:
+      pgbackstagesuperuser: "postgres"
+      pgbackstagesuperuserpassword: "dynamic:12:hex"
+      pgbackstageusername: "backstage"
+      pgbackstagepassword: "dynamic:12:hex"
+      pgbackstageport: 5432
+      pgbackstagehost: "sx-backstage-cluster-rw"
+      pgadminsecret: "dynamic:12:hex"
+      pgadminclientid: "pgadmin"
+      pgadminclientsecret: "dynamic:12:hex"
+  # cnpg keycloak secrets    
+  - application: "cnpg"
+    path: "cnpg/base"
+    namespace: "cnpg"
+    secretname: cnpg-creds-kc
+    secretType: "Opaque"
+    stringData:
+      pgkeycloakusername: "keycloak"
+      pgkeycloakpassword: "dynamic:12:hex"
+      pgkeycloakhost: "sx-keycloak-cluster-rw"
+      pgkeycloakdatabase: "keycloak"
+      pgkeycloaksuperuser: "postgres"
+      pgkeycloaksuperuserpassword: "dynamic:12:hex"

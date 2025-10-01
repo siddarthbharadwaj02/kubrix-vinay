@@ -1,0 +1,88 @@
+# per default no kyvernoPolicies get applied, add them in the list in your values files to enable them
+kyvernoPolicies:
+  createDenyAllAllowCoreDNSNetworkPolicy:
+    enabled: false
+    excludeNamespaces:
+      - kube-system
+      - kyverno
+    dnsPort: 53
+
+  createResourceQuotaAndLimitrange:
+    ensbled: false
+
+  validateKargoProjectName:
+    enabled: false
+
+  createKubevirtRolebinding:
+    enabled: false
+
+  createExcludeFromBackupLabel:
+    enabled: false
+
+kyverno:
+  admissionController:
+    replicas: 1
+    container:
+      resources:
+        limits:
+          memory: 1Gi
+    serviceMonitor:
+      enabled: true
+    rbac:
+      clusterRole:
+        extraResources:
+          - apiGroups:
+              - '*'
+            resources:
+              - '*'
+            verbs:
+              - get
+              - list
+              - watch
+  backgroundController:
+    replicas: 1
+    serviceMonitor:
+      enabled: true
+    rbac:
+      clusterRole:
+        extraResources:
+          - apiGroups:
+              - '*'
+            resources:
+              - '*'
+            verbs:
+              - get
+              - list
+              - watch
+  cleanupController:
+    replicas: 1
+    serviceMonitor:
+      enabled: true
+  reportsController:
+    replicas: 1
+    serviceMonitor:
+      enabled: true
+    resources:
+      limits:
+        memory: 512Mi
+    rbac:
+      clusterRole:
+        extraResources:
+          - apiGroups:
+              - '*'
+            resources:
+              - '*'
+            verbs:
+              - get
+              - list
+              - watch
+  config:
+    preserve: false
+    webhooks:
+      namespaceSelector:
+        matchExpressions:
+          - key: kubernetes.io/metadata.name
+            operator: NotIn
+            values:
+              - kyverno
+              - kube-system

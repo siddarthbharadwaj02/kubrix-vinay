@@ -1,0 +1,40 @@
+apiVersion: group.keycloak.crossplane.io/v1alpha1
+kind: Memberships
+metadata:
+  name: backstage-admin-memberships
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+    argocd.argoproj.io/sync-wave: "6"
+spec:
+  forProvider:
+    groupIdRef:
+      name: backstage-admin
+    members:
+      - service-account-backstage
+    realmId: {{ .Values.kubrix.keycloak.realm.realmid }}
+  providerConfigRef:
+    name: "{{ .Release.Name }}-config"
+---
+{{- range $group := .Values.kubrix.keycloak.realm.groups }}
+{{- if $group.members }}
+apiVersion: group.keycloak.crossplane.io/v1alpha1
+kind: Memberships
+metadata:
+  name: backstage-{{ $group.name }}-users-memberships
+  annotations:
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+    argocd.argoproj.io/sync-wave: "4"
+spec:
+  forProvider:
+    groupIdRef:
+      name: {{ $group.name }}
+    members:
+{{- range $member := $group.members }}
+      - {{ $member }}
+{{- end }}
+    realmId: {{ $.Values.kubrix.keycloak.realm.realmid }}
+  providerConfigRef:
+    name: "{{ $.Release.Name }}-config"
+---
+{{- end }}
+{{- end }}

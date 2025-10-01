@@ -1,0 +1,78 @@
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - '.github/workflows/gitops-diff.yaml'
+      - '.github/create-pr-comment-file.sh'
+      - 'platform-apps/charts/**'
+      
+permissions:
+  contents: read
+  pull-requests: write
+
+name: Diff GitOps
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.diffStep.outputs.matrix }}
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v5
+        with:
+         path: pr
+      - name: Checkout Target of PR
+        uses: actions/checkout@v5
+        with:
+          path: target
+          ref: ${{ github.event.pull_request.base.ref }}
+
+      - name: diff charts
+        id: diffStep
+        shell: bash
+        run: |
+          bash pr/.github/create-pr-comment-file.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: comment-files-artifact
+          path: comment-files/
+
+  create-template-render-diff-comment:
+    needs: diff
+    runs-on: ubuntu-latest
+    if: ${{ fromJSON(needs.diff.outputs.matrix).comment-files[0] }}
+    strategy:
+      matrix: ${{fromJSON(needs.diff.outputs.matrix)}}
+      max-parallel: 1
+    steps:
+
+      - uses: actions/download-artifact@v5
+        with:
+          name: comment-files-artifact
+          path: comment-files/
+
+      - uses: thollander/actions-comment-pull-request@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file-path: ${{matrix.comment-files}}
+
+
+  create-default-value-diff-comment:
+    needs: diff
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/download-artifact@v5
+        with:
+          name: comment-files-artifact
+          path: comment-files/
+
+      - name: PR comment default values with file
+        uses: thollander/actions-comment-pull-request@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file-path: comment-files/comment-default-values-result.txt
