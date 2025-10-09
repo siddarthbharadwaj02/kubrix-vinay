@@ -1,6 +1,6 @@
 
 <h3>Target <code>bitnamilegacy/kubectl:1.33.4 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (24)</h4>
+<h4>Vulnerabilities (23)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -71,13 +71,6 @@
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
         <td>2.5.0-1+deb12u2</td>
-    </tr>
-    <tr>
-        <td><code>libexpat1</code></td>
-        <td>CVE-2025-59375</td>
-        <td>HIGH</td>
-        <td>2.5.0-1+deb12u1</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>libjq1</code></td>

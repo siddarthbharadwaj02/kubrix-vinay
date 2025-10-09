@@ -1,6 +1,6 @@
 
 <h3>Target <code>registry.k8s.io/ingress-nginx/controller:v1.12.2@sha256:03497ee984628e95eca9b2279e3f3a3c1685dd48635479e627d219f00c8eefa9 (alpine 3.21.3)</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -25,6 +25,20 @@
     </tr>
     <tr>
         <td><code>libxml2</code></td>
+        <td>CVE-2025-49794</td>
+        <td>CRITICAL</td>
+        <td>2.13.4-r5</td>
+        <td>2.13.9-r0</td>
+    </tr>
+    <tr>
+        <td><code>libxml2</code></td>
+        <td>CVE-2025-49796</td>
+        <td>CRITICAL</td>
+        <td>2.13.4-r5</td>
+        <td>2.13.9-r0</td>
+    </tr>
+    <tr>
+        <td><code>libxml2</code></td>
         <td>CVE-2025-32414</td>
         <td>HIGH</td>
         <td>2.13.4-r5</td>
@@ -36,6 +50,20 @@
         <td>HIGH</td>
         <td>2.13.4-r5</td>
         <td>2.13.4-r6</td>
+    </tr>
+    <tr>
+        <td><code>libxml2</code></td>
+        <td>CVE-2025-49795</td>
+        <td>HIGH</td>
+        <td>2.13.4-r5</td>
+        <td>2.13.9-r0</td>
+    </tr>
+    <tr>
+        <td><code>libxml2</code></td>
+        <td>CVE-2025-6021</td>
+        <td>HIGH</td>
+        <td>2.13.4-r5</td>
+        <td>2.13.9-r0</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

@@ -1,6 +1,6 @@
 
 <h3>Target <code>docker.io/dserio83/velero-api:0.3.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (27)</h4>
+<h4>Vulnerabilities (26)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -64,13 +64,6 @@
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
         <td>2.5.0-1+deb12u2</td>
-    </tr>
-    <tr>
-        <td><code>libexpat1</code></td>
-        <td>CVE-2025-59375</td>
-        <td>HIGH</td>
-        <td>2.5.0-1+deb12u1</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>libldap-2.5-0</code></td>
@@ -340,7 +333,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/dserio83/velero-watchdog:0.1.8 (debian 12.10)</code></h3>
-<h4>Vulnerabilities (23)</h4>
+<h4>Vulnerabilities (22)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -404,13 +397,6 @@
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
         <td>2.5.0-1+deb12u2</td>
-    </tr>
-    <tr>
-        <td><code>libexpat1</code></td>
-        <td>CVE-2025-59375</td>
-        <td>HIGH</td>
-        <td>2.5.0-1+deb12u1</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>libgnutls30</code></td>
