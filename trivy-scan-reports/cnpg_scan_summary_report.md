@@ -49,7 +49,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (2)</h4>
+<h4>Vulnerabilities (3)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -64,6 +64,13 @@
         <td>HIGH</td>
         <td>1.6.0</td>
         <td>1.6.4</td>
+    </tr>
+    <tr>
+        <td><code>Authlib</code></td>
+        <td>CVE-2025-61920</td>
+        <td>HIGH</td>
+        <td>1.6.0</td>
+        <td>1.6.5</td>
     </tr>
     <tr>
         <td><code>pillow</code></td>
