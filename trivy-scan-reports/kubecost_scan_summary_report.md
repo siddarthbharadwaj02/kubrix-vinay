@@ -144,17 +144,17 @@
     </tr>
     <tr>
         <td><code>libxml2</code></td>
+        <td>CVE-2024-56171</td>
+        <td>CRITICAL</td>
+        <td>2.11.4-r0</td>
+        <td>2.11.8-r1</td>
+    </tr>
+    <tr>
+        <td><code>libxml2</code></td>
         <td>CVE-2024-25062</td>
         <td>HIGH</td>
         <td>2.11.4-r0</td>
         <td>2.11.7-r0</td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2024-56171</td>
-        <td>HIGH</td>
-        <td>2.11.4-r0</td>
-        <td>2.11.8-r1</td>
     </tr>
     <tr>
         <td><code>libxml2</code></td>
