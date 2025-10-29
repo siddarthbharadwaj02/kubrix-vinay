@@ -194,7 +194,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (3)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -223,6 +223,13 @@
         <td>HIGH</td>
         <td>65.5.1</td>
         <td>78.1.1</td>
+    </tr>
+    <tr>
+        <td><code>starlette</code></td>
+        <td>CVE-2025-62727</td>
+        <td>HIGH</td>
+        <td>0.45.3</td>
+        <td>0.49.1</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -499,7 +506,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (3)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -528,6 +535,13 @@
         <td>HIGH</td>
         <td>65.5.1</td>
         <td>78.1.1</td>
+    </tr>
+    <tr>
+        <td><code>starlette</code></td>
+        <td>CVE-2025-62727</td>
+        <td>HIGH</td>
+        <td>0.45.3</td>
+        <td>0.49.1</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
