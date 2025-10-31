@@ -3,7 +3,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/gosu</code></h3>
-<h4>Vulnerabilities (45)</h4>
+<h4>Vulnerabilities (43)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -301,13 +301,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58189</td>
-        <td>HIGH</td>
-        <td>v1.18.2</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.18.2</td>
@@ -316,13 +309,6 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
-        <td>HIGH</td>
-        <td>v1.18.2</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61725</td>
         <td>HIGH</td>
         <td>v1.18.2</td>
         <td>1.24.8, 1.25.2</td>
@@ -334,7 +320,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/dex</code></h3>
-<h4>Vulnerabilities (10)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -387,13 +373,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58189</td>
-        <td>HIGH</td>
-        <td>v1.25.0</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.25.0</td>
@@ -402,13 +381,6 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
-        <td>HIGH</td>
-        <td>v1.25.0</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61725</td>
         <td>HIGH</td>
         <td>v1.25.0</td>
         <td>1.24.8, 1.25.2</td>
@@ -416,7 +388,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/docker-entrypoint</code></h3>
-<h4>Vulnerabilities (10)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -469,13 +441,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58189</td>
-        <td>HIGH</td>
-        <td>v1.25.0</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.25.0</td>
@@ -488,17 +453,10 @@
         <td>v1.25.0</td>
         <td>1.24.8, 1.25.2</td>
     </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61725</td>
-        <td>HIGH</td>
-        <td>v1.25.0</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/gomplate</code></h3>
-<h4>Vulnerabilities (11)</h4>
+<h4>Vulnerabilities (9)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -558,13 +516,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58189</td>
-        <td>HIGH</td>
-        <td>v1.24.5</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.24.5</td>
@@ -577,13 +528,6 @@
         <td>v1.24.5</td>
         <td>1.24.8, 1.25.2</td>
     </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61725</td>
-        <td>HIGH</td>
-        <td>v1.24.5</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
@@ -591,7 +535,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/argocd</code></h3>
-<h4>Vulnerabilities (13)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -665,13 +609,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58189</td>
-        <td>HIGH</td>
-        <td>v1.24.6</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.24.6</td>
@@ -680,13 +617,6 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
-        <td>HIGH</td>
-        <td>v1.24.6</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61725</td>
         <td>HIGH</td>
         <td>v1.24.6</td>
         <td>1.24.8, 1.25.2</td>
@@ -694,7 +624,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/helm</code></h3>
-<h4>Vulnerabilities (11)</h4>
+<h4>Vulnerabilities (9)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -754,13 +684,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58189</td>
-        <td>HIGH</td>
-        <td>v1.24.4</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.24.4</td>
@@ -769,13 +692,6 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
-        <td>HIGH</td>
-        <td>v1.24.4</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61725</td>
         <td>HIGH</td>
         <td>v1.24.4</td>
         <td>1.24.8, 1.25.2</td>
@@ -783,7 +699,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/kustomize</code></h3>
-<h4>Vulnerabilities (11)</h4>
+<h4>Vulnerabilities (9)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -843,13 +759,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58189</td>
-        <td>HIGH</td>
-        <td>v1.22.7</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.22.7</td>
@@ -858,13 +767,6 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
-        <td>HIGH</td>
-        <td>v1.22.7</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61725</td>
         <td>HIGH</td>
         <td>v1.22.7</td>
         <td>1.24.8, 1.25.2</td>
