@@ -28,7 +28,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>bin/komoplane</code></h3>
-<h4>Vulnerabilities (13)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -88,13 +88,6 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-58185</td>
-        <td>HIGH</td>
-        <td>v1.23.5</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
         <td>CVE-2025-58186</td>
         <td>HIGH</td>
         <td>v1.23.5</td>
@@ -110,13 +103,6 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.5</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.23.5</td>
         <td>1.24.8, 1.25.2</td>
