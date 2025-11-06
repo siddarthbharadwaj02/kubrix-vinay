@@ -3,7 +3,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>curlimages/curl:latest (alpine 3.22.1)</code></h3>
+<h3>Target <code>curlimages/curl:latest (alpine 3.22.2)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 

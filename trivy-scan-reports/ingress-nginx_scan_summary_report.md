@@ -136,7 +136,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>nginx-ingress-controller</code></h3>
-<h4>Vulnerabilities (8)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -144,6 +144,27 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/opencontainers/runc</code></td>
+        <td>CVE-2025-31133</td>
+        <td>HIGH</td>
+        <td>v1.2.6</td>
+        <td>1.2.8, 1.3.3, 1.4.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/opencontainers/runc</code></td>
+        <td>CVE-2025-52565</td>
+        <td>HIGH</td>
+        <td>v1.2.6</td>
+        <td>1.2.8, 1.3.3, 1.4.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/opencontainers/runc</code></td>
+        <td>CVE-2025-52881</td>
+        <td>HIGH</td>
+        <td>v1.2.6</td>
+        <td>1.2.8, 1.3.3, 1.4.0-rc.3</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>

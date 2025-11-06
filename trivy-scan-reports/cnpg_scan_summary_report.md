@@ -77,7 +77,7 @@
         <td>CVE-2025-6176</td>
         <td>HIGH</td>
         <td>1.1.0</td>
-        <td></td>
+        <td>1.2.0</td>
     </tr>
     <tr>
         <td><code>pillow</code></td>
