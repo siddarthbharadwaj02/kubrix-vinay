@@ -214,7 +214,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/falco-exporter</code></h3>
-<h4>Vulnerabilities (33)</h4>
+<h4>Vulnerabilities (35)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -449,6 +449,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-58189</td>
+        <td>HIGH</td>
+        <td>v1.17.13</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61723</td>
+        <td>HIGH</td>
+        <td>v1.17.13</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
         <td>HIGH</td>
         <td>v1.17.13</td>
@@ -586,7 +600,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/falcoctl</code></h3>
-<h4>Vulnerabilities (11)</h4>
+<h4>Vulnerabilities (13)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -667,6 +681,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-58189</td>
+        <td>HIGH</td>
+        <td>v1.23.5</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61723</td>
+        <td>HIGH</td>
+        <td>v1.23.5</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
         <td>HIGH</td>
         <td>v1.23.5</td>
@@ -679,7 +707,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>app/falcosidekick-ui</code></h3>
-<h4>Vulnerabilities (16)</h4>
+<h4>Vulnerabilities (18)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -795,6 +823,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-58189</td>
+        <td>HIGH</td>
+        <td>v1.20.8</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61723</td>
+        <td>HIGH</td>
+        <td>v1.20.8</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
         <td>HIGH</td>
         <td>v1.20.8</td>
@@ -807,7 +849,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>app/falcosidekick</code></h3>
-<h4>Vulnerabilities (10)</h4>
+<h4>Vulnerabilities (12)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -881,6 +923,20 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-58189</td>
+        <td>HIGH</td>
+        <td>v1.23.5</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61723</td>
+        <td>HIGH</td>
+        <td>v1.23.5</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-61724</td>
         <td>HIGH</td>
         <td>v1.23.5</td>
@@ -893,7 +949,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>meta-collector</code></h3>
-<h4>Vulnerabilities (13)</h4>
+<h4>Vulnerabilities (15)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -982,6 +1038,20 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-58188</td>
+        <td>HIGH</td>
+        <td>v1.21.1</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58189</td>
+        <td>HIGH</td>
+        <td>v1.21.1</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.21.1</td>
         <td>1.24.8, 1.25.2</td>

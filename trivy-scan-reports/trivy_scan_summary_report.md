@@ -3,7 +3,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/trivy-operator</code></h3>
-<h4>Vulnerabilities (9)</h4>
+<h4>Vulnerabilities (13)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -11,6 +11,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/containerd/containerd</code></td>
+        <td>CVE-2024-25621</td>
+        <td>HIGH</td>
+        <td>v1.7.27</td>
+        <td>1.7.29</td>
+    </tr>
+    <tr>
+        <td><code>github.com/containerd/containerd/v2</code></td>
+        <td>CVE-2024-25621</td>
+        <td>HIGH</td>
+        <td>v2.1.3</td>
+        <td>2.0.7, 2.1.5, 2.2.0</td>
     </tr>
     <tr>
         <td><code>github.com/hashicorp/go-getter</code></td>
@@ -64,6 +78,20 @@
     <tr>
         <td><code>stdlib</code></td>
         <td>CVE-2025-58188</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58189</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61723</td>
         <td>HIGH</td>
         <td>v1.24.4</td>
         <td>1.24.8, 1.25.2</td>
