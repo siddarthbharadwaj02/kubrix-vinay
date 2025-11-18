@@ -322,7 +322,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (2)</h4>
+<h4>Vulnerabilities (3)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -337,6 +337,13 @@
         <td>HIGH</td>
         <td>7.0.3</td>
         <td>7.0.5, 6.0.6</td>
+    </tr>
+    <tr>
+        <td><code>glob</code></td>
+        <td>CVE-2025-64756</td>
+        <td>HIGH</td>
+        <td>10.3.10</td>
+        <td>11.1.0</td>
     </tr>
     <tr>
         <td><code>ip</code></td>
