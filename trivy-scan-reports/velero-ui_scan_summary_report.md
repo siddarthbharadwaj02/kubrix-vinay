@@ -343,7 +343,7 @@
         <td>CVE-2025-64756</td>
         <td>HIGH</td>
         <td>10.3.10</td>
-        <td>11.1.0</td>
+        <td>11.1.0, 10.5.0</td>
     </tr>
     <tr>
         <td><code>ip</code></td>
