@@ -3,7 +3,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>app/cmd/acmesolver/acmesolver</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -39,13 +39,6 @@
         <td>HIGH</td>
         <td>v1.23.8</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.8</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -54,7 +47,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>app/cmd/cainjector/cainjector</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -90,13 +83,6 @@
         <td>HIGH</td>
         <td>v1.23.8</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.8</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -105,7 +91,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>app/cmd/controller/controller</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -141,13 +127,6 @@
         <td>HIGH</td>
         <td>v1.23.8</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.8</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -156,7 +135,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>startupapicheck</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -192,13 +171,6 @@
         <td>HIGH</td>
         <td>v1.23.8</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.8</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -207,7 +179,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>app/cmd/webhook/webhook</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -243,13 +215,6 @@
         <td>HIGH</td>
         <td>v1.23.8</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.8</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

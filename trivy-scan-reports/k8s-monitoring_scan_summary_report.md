@@ -33,7 +33,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/local/bin/helm-operator</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -76,13 +76,6 @@
         <td>HIGH</td>
         <td>v1.24.5</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.24.5</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -128,7 +121,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/kubectl-1.29</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -171,18 +164,11 @@
         <td>HIGH</td>
         <td>v1.23.6</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.6</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/kubectl-1.30</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -226,17 +212,10 @@
         <td>v1.23.10</td>
         <td>1.24.9, 1.25.3</td>
     </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.10</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/kubectl-1.31</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -280,17 +259,10 @@
         <td>v1.23.11</td>
         <td>1.24.9, 1.25.3</td>
     </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.11</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/kubectl-1.32</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -334,17 +306,10 @@
         <td>v1.23.11</td>
         <td>1.24.9, 1.25.3</td>
     </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.11</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/kubectl-1.33</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -381,18 +346,11 @@
         <td>v1.24.5</td>
         <td>1.24.9, 1.25.3</td>
     </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.24.5</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>bin/node_exporter</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -435,13 +393,6 @@
         <td>HIGH</td>
         <td>v1.23.7</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.23.7</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -494,7 +445,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/kepler</code></h3>
-<h4>Vulnerabilities (7)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -545,13 +496,6 @@
         <td>v1.22.9</td>
         <td>1.24.9, 1.25.3</td>
     </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.22.9</td>
-        <td>1.24.8, 1.25.2</td>
-    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
@@ -559,7 +503,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>kube-state-metrics</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (3)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -588,13 +532,6 @@
         <td>HIGH</td>
         <td>v1.24.6</td>
         <td>1.24.9, 1.25.3</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-58188</td>
-        <td>HIGH</td>
-        <td>v1.24.6</td>
-        <td>1.24.8, 1.25.2</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

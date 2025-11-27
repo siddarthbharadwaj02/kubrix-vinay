@@ -8,7 +8,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>quay.io/keycloak/keycloak-operator:26.3.2 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (3)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -16,6 +16,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>java-21-openjdk-headless</code></td>
+        <td>CVE-2025-64720</td>
+        <td>HIGH</td>
+        <td>1:21.0.8.0.9-1.el9</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>java-21-openjdk-headless</code></td>
+        <td>CVE-2025-65018</td>
+        <td>HIGH</td>
+        <td>1:21.0.8.0.9-1.el9</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>sqlite-libs</code></td>
