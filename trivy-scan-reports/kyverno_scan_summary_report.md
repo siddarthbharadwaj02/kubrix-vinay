@@ -5,7 +5,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/background-controller</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -13,6 +13,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -49,7 +63,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/cleanup-controller</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -57,6 +71,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -93,7 +121,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kubectl-kyverno</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -101,6 +129,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -137,7 +179,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kyverno</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -145,6 +187,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -181,7 +237,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kyverno-init</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -189,6 +245,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
@@ -225,7 +295,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/reports-controller</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -233,6 +303,20 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
