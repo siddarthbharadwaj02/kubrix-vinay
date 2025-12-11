@@ -1,6 +1,6 @@
 
 <h3>Target <code>ghcr.io/grafana/xk6-client-tracing:v0.0.2 (alpine 3.17.0)</code></h3>
-<h4>Vulnerabilities (20)</h4>
+<h4>Vulnerabilities (22)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -148,6 +148,20 @@
         <td>HIGH</td>
         <td>3.0.7-r0</td>
         <td>3.0.15-r0</td>
+    </tr>
+    <tr>
+        <td><code>musl</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.3-r4</td>
+        <td>1.2.3-r6</td>
+    </tr>
+    <tr>
+        <td><code>musl-utils</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.3-r4</td>
+        <td>1.2.3-r6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

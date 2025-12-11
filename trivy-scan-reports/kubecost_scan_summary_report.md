@@ -1,6 +1,6 @@
 
 <h3>Target <code>alpine/k8s:1.26.9 (alpine 3.18.4)</code></h3>
-<h4>Vulnerabilities (37)</h4>
+<h4>Vulnerabilities (39)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -183,6 +183,20 @@
         <td>HIGH</td>
         <td>2.11.4-r0</td>
         <td>2.11.8-r3</td>
+    </tr>
+    <tr>
+        <td><code>musl</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.4-r1</td>
+        <td>1.2.4-r3</td>
+    </tr>
+    <tr>
+        <td><code>musl-utils</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.4-r1</td>
+        <td>1.2.4-r3</td>
     </tr>
     <tr>
         <td><code>nghttp2-libs</code></td>

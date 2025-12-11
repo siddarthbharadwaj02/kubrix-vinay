@@ -1,6 +1,6 @@
 
 <h3>Target <code>kubevirtmanager/kubevirt-manager:1.3.3 (alpine 3.18.6)</code></h3>
-<h4>Vulnerabilities (19)</h4>
+<h4>Vulnerabilities (21)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -136,6 +136,20 @@
         <td>1.1.38-r1</td>
     </tr>
     <tr>
+        <td><code>musl</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.4-r2</td>
+        <td>1.2.4-r3</td>
+    </tr>
+    <tr>
+        <td><code>musl-utils</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.4-r2</td>
+        <td>1.2.4-r3</td>
+    </tr>
+    <tr>
         <td><code>xz-libs</code></td>
         <td>CVE-2025-31115</td>
         <td>HIGH</td>
@@ -224,7 +238,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>kubevirtmanager/kubevirt-manager:1.5.0 (alpine 3.20.5)</code></h3>
-<h4>Vulnerabilities (14)</h4>
+<h4>Vulnerabilities (16)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -323,6 +337,20 @@
         <td>HIGH</td>
         <td>1.1.39-r1</td>
         <td>1.1.39-r2</td>
+    </tr>
+    <tr>
+        <td><code>musl</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.5-r0</td>
+        <td>1.2.5-r1</td>
+    </tr>
+    <tr>
+        <td><code>musl-utils</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.5-r0</td>
+        <td>1.2.5-r1</td>
     </tr>
     <tr>
         <td><code>xz-libs</code></td>

@@ -51,7 +51,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/grafana/loki-helm-test:ewelch-distributed-helm-chart-17db5ee (alpine 3.18.5)</code></h3>
-<h4>Vulnerabilities (2)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -73,6 +73,20 @@
         <td>HIGH</td>
         <td>3.1.4-r1</td>
         <td>3.1.7-r0</td>
+    </tr>
+    <tr>
+        <td><code>musl</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.4-r2</td>
+        <td>1.2.4-r3</td>
+    </tr>
+    <tr>
+        <td><code>musl-utils</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.4-r2</td>
+        <td>1.2.4-r3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
