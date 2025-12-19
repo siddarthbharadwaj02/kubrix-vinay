@@ -1,6 +1,6 @@
 
 <h3>Target <code>alpine/k8s:1.26.9 (alpine 3.18.4)</code></h3>
-<h4>Vulnerabilities (39)</h4>
+<h4>Vulnerabilities (40)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -50,6 +50,13 @@
         <td>HIGH</td>
         <td>2.40.1-r0</td>
         <td>2.40.3-r0</td>
+    </tr>
+    <tr>
+        <td><code>git</code></td>
+        <td>CVE-2024-52006</td>
+        <td>HIGH</td>
+        <td>2.40.1-r0</td>
+        <td>2.40.4-r0</td>
     </tr>
     <tr>
         <td><code>libcrypto3</code></td>
