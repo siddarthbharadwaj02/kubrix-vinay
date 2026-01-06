@@ -27,7 +27,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (343)</h4>
+<h4>Vulnerabilities (334)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -318,21 +318,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2023-53999</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2023-54013</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2023-54016</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -374,13 +360,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-26842</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-26913</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -389,13 +368,6 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-26914</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-26930</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -423,13 +395,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-35949</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-36013</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -445,13 +410,6 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-38630</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-39479</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -556,13 +514,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-50112</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-50217</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -634,13 +585,6 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-56775</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-57899</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -1627,13 +1571,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-39756</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.153-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-39757</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -2306,13 +2243,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-68379</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-68380</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -2321,6 +2251,13 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-68745</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68764</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
