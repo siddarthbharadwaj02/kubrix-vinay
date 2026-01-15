@@ -49,7 +49,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (7)</h4>
+<h4>Vulnerabilities (9)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -78,6 +78,20 @@
         <td>HIGH</td>
         <td>1.1.0</td>
         <td>1.2.0</td>
+    </tr>
+    <tr>
+        <td><code>azure-core</code></td>
+        <td>CVE-2026-21226</td>
+        <td>HIGH</td>
+        <td>1.34.0</td>
+        <td>1.38.0</td>
+    </tr>
+    <tr>
+        <td><code>jaraco.context</code></td>
+        <td>GHSA-58pv-8j8x-9vj2</td>
+        <td>HIGH</td>
+        <td>6.0.1</td>
+        <td>6.1.0</td>
     </tr>
     <tr>
         <td><code>pillow</code></td>

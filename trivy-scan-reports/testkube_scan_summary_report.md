@@ -186,77 +186,77 @@
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gnupg</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gnupg-l10n</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gnupg-utils</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gpg</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gpg-agent</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gpg-wks-client</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gpg-wks-server</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gpgconf</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gpgsm</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>gpgv</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
-        <td></td>
+        <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
         <td><code>libc-bin</code></td>
