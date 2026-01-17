@@ -1,6 +1,6 @@
 
 <h3>Target <code>ghcr.io/grafana/alloy-operator:1.2.1 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (7)</h4>
+<h4>Vulnerabilities (4)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -8,27 +8,6 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>glibc</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.20</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-common</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.20</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-minimal-langpack</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.20</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>gnupg2</code></td>
@@ -377,7 +356,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>quay.io/sustainable_computing_io/kepler:release-0.8.0 (redhat 9.5)</code></h3>
-<h4>Vulnerabilities (9)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -385,27 +364,6 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>glibc</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-125.el9_5.3</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-common</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-125.el9_5.3</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-minimal-langpack</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-125.el9_5.3</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>gnupg2</code></td>

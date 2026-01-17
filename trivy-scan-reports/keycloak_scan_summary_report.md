@@ -31,7 +31,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>quay.io/keycloak/keycloak-operator:26.3.2 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (8)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -39,27 +39,6 @@
         <th>Severity</th>
         <th>Installed Version</th>
         <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>glibc</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-common</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-langpack-en</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>java-21-openjdk-headless</code></td>

@@ -49,7 +49,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (9)</h4>
+<h4>Vulnerabilities (10)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -99,6 +99,13 @@
         <td>HIGH</td>
         <td>11.2.1</td>
         <td>11.3.0</td>
+    </tr>
+    <tr>
+        <td><code>pyasn1</code></td>
+        <td>CVE-2026-23490</td>
+        <td>HIGH</td>
+        <td>0.6.1</td>
+        <td>0.6.2</td>
     </tr>
     <tr>
         <td><code>urllib3</code></td>

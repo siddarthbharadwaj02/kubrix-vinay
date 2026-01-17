@@ -1592,7 +1592,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>gcr.io/kubecost1/cost-model:prod-2.8.2 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (9)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1607,27 +1607,6 @@
         <td>HIGH</td>
         <td>2.5.0-5.el9_6</td>
         <td>2.5.0-5.el9_7.1</td>
-    </tr>
-    <tr>
-        <td><code>glibc</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-common</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-minimal-langpack</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>gnupg2</code></td>
@@ -1701,7 +1680,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>gcr.io/kubecost1/frontend:prod-2.8.2 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (9)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1716,27 +1695,6 @@
         <td>HIGH</td>
         <td>2.5.0-5.el9_6</td>
         <td>2.5.0-5.el9_7.1</td>
-    </tr>
-    <tr>
-        <td><code>glibc</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-common</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-minimal-langpack</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.23</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>gnupg2</code></td>
@@ -1777,7 +1735,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>gcr.io/kubecost1/kubecost-modeling:v0.1.28 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (8)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1792,27 +1750,6 @@
         <td>HIGH</td>
         <td>2.5.0-5.el9_6</td>
         <td>2.5.0-5.el9_7.1</td>
-    </tr>
-    <tr>
-        <td><code>glibc</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.20</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-common</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.20</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>glibc-minimal-langpack</code></td>
-        <td>CVE-2026-0861</td>
-        <td>HIGH</td>
-        <td>2.34-168.el9_6.20</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>gnupg2</code></td>
