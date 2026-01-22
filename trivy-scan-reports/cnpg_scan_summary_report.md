@@ -88,7 +88,7 @@
     </tr>
     <tr>
         <td><code>jaraco.context</code></td>
-        <td>GHSA-58pv-8j8x-9vj2</td>
+        <td>CVE-2026-23949</td>
         <td>HIGH</td>
         <td>6.0.1</td>
         <td>6.1.0</td>
