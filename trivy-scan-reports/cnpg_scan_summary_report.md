@@ -49,7 +49,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (10)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -99,6 +99,13 @@
         <td>HIGH</td>
         <td>11.2.1</td>
         <td>11.3.0</td>
+    </tr>
+    <tr>
+        <td><code>protobuf</code></td>
+        <td>CVE-2026-0994</td>
+        <td>HIGH</td>
+        <td>6.31.1</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>pyasn1</code></td>
