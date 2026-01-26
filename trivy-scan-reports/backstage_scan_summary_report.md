@@ -2579,7 +2579,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-22980</td>
+        <td>CVE-2026-22984</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
