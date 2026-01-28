@@ -1592,7 +1592,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>gcr.io/kubecost1/cost-model:prod-2.8.2 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1621,6 +1621,20 @@
         <td>HIGH</td>
         <td>3.5.3-5.el9_6</td>
         <td>3.5.3-6.el9_6</td>
+    </tr>
+    <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-15467</td>
+        <td>HIGH</td>
+        <td>1:3.2.2-6.el9_5.1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>openssl-libs</code></td>
+        <td>CVE-2025-15467</td>
+        <td>HIGH</td>
+        <td>1:3.2.2-6.el9_5.1</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>pam</code></td>
@@ -1680,7 +1694,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>gcr.io/kubecost1/frontend:prod-2.8.2 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1711,6 +1725,20 @@
         <td>3.5.3-6.el9_6</td>
     </tr>
     <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-15467</td>
+        <td>HIGH</td>
+        <td>1:3.2.2-6.el9_5.1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>openssl-libs</code></td>
+        <td>CVE-2025-15467</td>
+        <td>HIGH</td>
+        <td>1:3.2.2-6.el9_5.1</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>pam</code></td>
         <td>CVE-2025-6020</td>
         <td>HIGH</td>
@@ -1735,7 +1763,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>gcr.io/kubecost1/kubecost-modeling:v0.1.28 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -1771,6 +1799,13 @@
         <td>HIGH</td>
         <td>2.9.13-10.el9_6</td>
         <td>2.9.13-11.el9_6</td>
+    </tr>
+    <tr>
+        <td><code>openssl-libs</code></td>
+        <td>CVE-2025-15467</td>
+        <td>HIGH</td>
+        <td>1:3.2.2-6.el9_5.1</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>sqlite-libs</code></td>
