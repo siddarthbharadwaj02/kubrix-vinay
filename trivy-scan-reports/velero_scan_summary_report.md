@@ -1,6 +1,6 @@
 
 <h3>Target <code>bitnamilegacy/kubectl:1.33.4 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (30)</h4>
+<h4>Vulnerabilities (31)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -43,6 +43,13 @@
         <td>HIGH</td>
         <td>2.2.40-1.1</td>
         <td>2.2.40-1.1+deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>gpgv</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.40-1.1</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>jq</code></td>

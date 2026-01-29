@@ -193,7 +193,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/zcube/bitnami-compat-mongodb:6.0.5-debian-11-r64 (debian 11.8)</code></h3>
-<h4>Vulnerabilities (59)</h4>
+<h4>Vulnerabilities (70)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -217,11 +217,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>dirmngr</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gnupg</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gnupg</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gnupg-l10n</code></td>
@@ -231,11 +245,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gnupg-l10n</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gnupg-utils</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gnupg-utils</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gpg</code></td>
@@ -245,11 +273,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpg</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpg-agent</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gpg-agent</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gpg-wks-client</code></td>
@@ -259,11 +301,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpg-wks-client</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpg-wks-server</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gpg-wks-server</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>gpgconf</code></td>
@@ -273,6 +329,13 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpgconf</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpgsm</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
@@ -280,11 +343,25 @@
         <td>2.2.27-2+deb11u3</td>
     </tr>
     <tr>
+        <td><code>gpgsm</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
+    </tr>
+    <tr>
         <td><code>gpgv</code></td>
         <td>CVE-2025-68973</td>
         <td>HIGH</td>
         <td>2.2.27-2+deb11u2</td>
         <td>2.2.27-2+deb11u3</td>
+    </tr>
+    <tr>
+        <td><code>gpgv</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.2.27-2+deb11u2</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libc-bin</code></td>

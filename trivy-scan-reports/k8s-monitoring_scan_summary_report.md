@@ -1,6 +1,6 @@
 
 <h3>Target <code>ghcr.io/grafana/alloy-operator:1.2.1 (redhat 9.6)</code></h3>
-<h4>Vulnerabilities (5)</h4>
+<h4>Vulnerabilities (7)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -15,6 +15,20 @@
         <td>HIGH</td>
         <td>2.3.3-4.el9</td>
         <td>2.3.3-5.el9_7</td>
+    </tr>
+    <tr>
+        <td><code>gnupg2</code></td>
+        <td>CVE-2026-24881</td>
+        <td>HIGH</td>
+        <td>2.3.3-4.el9</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>gnupg2</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.3.3-4.el9</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libarchive</code></td>
@@ -35,7 +49,7 @@
         <td>CVE-2025-15467</td>
         <td>HIGH</td>
         <td>1:3.2.2-6.el9_5.1</td>
-        <td></td>
+        <td>1:3.5.1-7.el9_7</td>
     </tr>
     <tr>
         <td><code>sqlite-libs</code></td>
@@ -391,7 +405,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>quay.io/sustainable_computing_io/kepler:release-0.8.0 (redhat 9.5)</code></h3>
-<h4>Vulnerabilities (7)</h4>
+<h4>Vulnerabilities (9)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -406,6 +420,20 @@
         <td>HIGH</td>
         <td>2.3.3-4.el9</td>
         <td>2.3.3-5.el9_7</td>
+    </tr>
+    <tr>
+        <td><code>gnupg2</code></td>
+        <td>CVE-2026-24881</td>
+        <td>HIGH</td>
+        <td>2.3.3-4.el9</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>gnupg2</code></td>
+        <td>CVE-2026-24882</td>
+        <td>HIGH</td>
+        <td>2.3.3-4.el9</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libarchive</code></td>
@@ -440,7 +468,7 @@
         <td>CVE-2025-15467</td>
         <td>HIGH</td>
         <td>1:3.2.2-6.el9_5.1</td>
-        <td></td>
+        <td>1:3.5.1-7.el9_7</td>
     </tr>
     <tr>
         <td><code>sqlite-libs</code></td>
