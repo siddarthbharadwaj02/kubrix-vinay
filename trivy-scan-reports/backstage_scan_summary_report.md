@@ -27,7 +27,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (408)</h4>
+<h4>Vulnerabilities (399)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -108,6 +108,13 @@
     </tr>
     <tr>
         <td><code>libexpat1</code></td>
+        <td>CVE-2026-24515</td>
+        <td>CRITICAL</td>
+        <td>2.5.0-1+deb12u1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libexpat1</code></td>
         <td>CVE-2023-52425</td>
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
@@ -119,6 +126,13 @@
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
         <td>2.5.0-1+deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>libexpat1-dev</code></td>
+        <td>CVE-2026-24515</td>
+        <td>CRITICAL</td>
+        <td>2.5.0-1+deb12u1</td>
+        <td></td>
     </tr>
     <tr>
         <td><code>libexpat1-dev</code></td>
@@ -2502,13 +2516,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40324</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.159-1</td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-40328</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -2565,13 +2572,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-68803</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-71085</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -2586,21 +2586,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-71094</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-71116</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-71132</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -2621,34 +2607,6 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-22991</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-22992</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-22996</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-23000</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2026-23001</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -2656,21 +2614,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-23003</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2026-23010</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-23011</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -2730,13 +2674,6 @@
         <td>HIGH</td>
         <td>66.1.1-1+deb12u1</td>
         <td>66.1.1-1+deb12u2</td>
-    </tr>
-    <tr>
-        <td><code>python3-wheel</code></td>
-        <td>CVE-2026-24049</td>
-        <td>HIGH</td>
-        <td>0.38.4-2</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>python3.11</code></td>
@@ -2895,7 +2832,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (96)</h4>
+<h4>Vulnerabilities (99)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -3022,6 +2959,27 @@
         <td>HIGH</td>
         <td>7.0.3</td>
         <td>7.0.5, 6.0.6</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-25128</td>
+        <td>HIGH</td>
+        <td>4.4.1</td>
+        <td>5.3.4</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-25128</td>
+        <td>HIGH</td>
+        <td>4.5.3</td>
+        <td>5.3.4</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-25128</td>
+        <td>HIGH</td>
+        <td>5.2.3</td>
+        <td>5.3.4</td>
     </tr>
     <tr>
         <td><code>form-data</code></td>
