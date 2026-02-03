@@ -128,7 +128,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/grafana/grafana:12.0.2 (alpine 3.21.3)</code></h3>
-<h4>Vulnerabilities (4)</h4>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -152,6 +152,13 @@
         <td>3.3.6-r0</td>
     </tr>
     <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2025-15467</td>
         <td>CRITICAL</td>
@@ -161,6 +168,13 @@
     <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
         <td>HIGH</td>
         <td>3.3.3-r0</td>
         <td>3.3.6-r0</td>
@@ -315,7 +329,7 @@
 <h3>Trivy Returned Empty Report</h3>
 
 <h3>Target <code>quay.io/kiwigrid/k8s-sidecar:1.30.3 (alpine 3.21.3)</code></h3>
-<h4>Vulnerabilities (8)</h4>
+<h4>Vulnerabilities (10)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -339,6 +353,13 @@
         <td>3.3.6-r0</td>
     </tr>
     <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2025-15467</td>
         <td>CRITICAL</td>
@@ -348,6 +369,13 @@
     <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
         <td>HIGH</td>
         <td>3.3.3-r0</td>
         <td>3.3.6-r0</td>

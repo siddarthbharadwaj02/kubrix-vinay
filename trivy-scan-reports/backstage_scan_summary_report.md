@@ -27,7 +27,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (399)</h4>
+<h4>Vulnerabilities (401)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -375,6 +375,13 @@
     <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
         <td>HIGH</td>
         <td>3.0.16-1~deb12u1</td>
         <td>3.0.18-1~deb12u2</td>
@@ -2634,6 +2641,13 @@
         <td>3.0.18-1~deb12u2</td>
     </tr>
     <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
+    </tr>
+    <tr>
         <td><code>perl</code></td>
         <td>CVE-2023-31484</td>
         <td>HIGH</td>
@@ -2832,7 +2846,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (99)</h4>
+<h4>Vulnerabilities (100)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -2924,6 +2938,13 @@
         <td>HIGH</td>
         <td>0.8.2</td>
         <td>0.11.2, 0.12.3</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/plugin-techdocs-node</code></td>
+        <td>CVE-2026-25153</td>
+        <td>HIGH</td>
+        <td>1.13.3</td>
+        <td>1.14.1, 1.13.11</td>
     </tr>
     <tr>
         <td><code>@node-saml/node-saml</code></td>

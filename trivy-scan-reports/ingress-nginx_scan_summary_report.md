@@ -1,6 +1,6 @@
 
 <h3>Target <code>registry.k8s.io/ingress-nginx/controller:v1.12.2@sha256:03497ee984628e95eca9b2279e3f3a3c1685dd48635479e627d219f00c8eefa9 (alpine 3.21.3)</code></h3>
-<h4>Vulnerabilities (14)</h4>
+<h4>Vulnerabilities (17)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -38,6 +38,13 @@
         <td>3.3.6-r0</td>
     </tr>
     <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2025-15467</td>
         <td>CRITICAL</td>
@@ -47,6 +54,13 @@
     <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
         <td>HIGH</td>
         <td>3.3.3-r0</td>
         <td>3.3.6-r0</td>
@@ -103,6 +117,13 @@
     <tr>
         <td><code>openssl</code></td>
         <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.3.3-r0</td>
+        <td>3.3.6-r0</td>
+    </tr>
+    <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-69421</td>
         <td>HIGH</td>
         <td>3.3.3-r0</td>
         <td>3.3.6-r0</td>
