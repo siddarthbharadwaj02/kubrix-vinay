@@ -2,7 +2,7 @@
 <h3>Trivy Returned Empty Report</h3>
 
 <h3>Target <code>docker.io/dpage/pgadmin4:9.5 (alpine 3.22.0)</code></h3>
-<h4>Vulnerabilities (11)</h4>
+<h4>Vulnerabilities (12)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -45,6 +45,13 @@
         <td>HIGH</td>
         <td>3.5.0-r0</td>
         <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libexpat</code></td>
+        <td>CVE-2026-24515</td>
+        <td>CRITICAL</td>
+        <td>2.7.1-r0</td>
+        <td>2.7.4-r0</td>
     </tr>
     <tr>
         <td><code>libssl3</code></td>
