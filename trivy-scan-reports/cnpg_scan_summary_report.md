@@ -154,7 +154,7 @@
         <td>CVE-2026-0994</td>
         <td>HIGH</td>
         <td>6.31.1</td>
-        <td>6.33.5</td>
+        <td>6.33.5, 5.29.6</td>
     </tr>
     <tr>
         <td><code>pyasn1</code></td>

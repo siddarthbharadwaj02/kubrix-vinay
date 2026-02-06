@@ -1,6 +1,6 @@
 
 <h3>Target <code>docker.io/dserio83/velero-api:0.3.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (53)</h4>
+<h4>Vulnerabilities (52)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -43,13 +43,6 @@
         <td>HIGH</td>
         <td>2.2.40-1.1</td>
         <td>2.2.40-1.1+deb12u2</td>
-    </tr>
-    <tr>
-        <td><code>gpgv</code></td>
-        <td>CVE-2026-24882</td>
-        <td>HIGH</td>
-        <td>2.2.40-1.1</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>libc-bin</code></td>
@@ -697,7 +690,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>docker.io/dserio83/velero-watchdog:0.1.8 (debian 12.10)</code></h3>
-<h4>Vulnerabilities (33)</h4>
+<h4>Vulnerabilities (32)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -740,13 +733,6 @@
         <td>HIGH</td>
         <td>2.2.40-1.1</td>
         <td>2.2.40-1.1+deb12u2</td>
-    </tr>
-    <tr>
-        <td><code>gpgv</code></td>
-        <td>CVE-2026-24882</td>
-        <td>HIGH</td>
-        <td>2.2.40-1.1</td>
-        <td></td>
     </tr>
     <tr>
         <td><code>libc-bin</code></td>
