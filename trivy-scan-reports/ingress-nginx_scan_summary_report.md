@@ -131,7 +131,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>dbg</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -182,10 +182,24 @@
         <td>v1.24.2</td>
         <td>1.24.11, 1.25.5</td>
     </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>nginx-ingress-controller</code></h3>
-<h4>Vulnerabilities (9)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -257,10 +271,24 @@
         <td>v1.24.2</td>
         <td>1.24.11, 1.25.5</td>
     </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>wait-shutdown</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -310,6 +338,20 @@
         <td>HIGH</td>
         <td>v1.24.2</td>
         <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -318,7 +360,7 @@
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>kube-webhook-certgen</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -368,6 +410,20 @@
         <td>HIGH</td>
         <td>v1.24.2</td>
         <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>HIGH</td>
+        <td>v1.24.2</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
