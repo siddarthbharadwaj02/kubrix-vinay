@@ -1,6 +1,6 @@
 
 <h3>Target <code>ghcr.io/grafana/xk6-client-tracing:v0.0.2 (alpine 3.17.0)</code></h3>
-<h4>Vulnerabilities (22)</h4>
+<h4>Vulnerabilities (28)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -11,6 +11,13 @@
     </tr>
     <tr>
         <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.0.7-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
         <td>CVE-2022-3996</td>
         <td>HIGH</td>
         <td>3.0.7-r0</td>
@@ -80,6 +87,27 @@
         <td>3.0.15-r0</td>
     </tr>
     <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.7-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.7-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.0.7-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
         <td><code>libssl3</code></td>
         <td>CVE-2022-3996</td>
         <td>HIGH</td>
@@ -148,6 +176,20 @@
         <td>HIGH</td>
         <td>3.0.7-r0</td>
         <td>3.0.15-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.7-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.7-r0</td>
+        <td>3.0.19-r0</td>
     </tr>
     <tr>
         <td><code>musl</code></td>
