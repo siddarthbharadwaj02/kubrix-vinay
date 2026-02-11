@@ -91,7 +91,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (11)</h4>
+<h4>Vulnerabilities (12)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -127,6 +127,13 @@
         <td>HIGH</td>
         <td>1.34.0</td>
         <td>1.38.0</td>
+    </tr>
+    <tr>
+        <td><code>cryptography</code></td>
+        <td>CVE-2026-26007</td>
+        <td>HIGH</td>
+        <td>45.0.4</td>
+        <td>46.0.5</td>
     </tr>
     <tr>
         <td><code>jaraco.context</code></td>
@@ -195,6 +202,13 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.3</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-22874</td>
         <td>HIGH</td>
         <td>v1.24.3</td>
@@ -241,13 +255,6 @@
         <td>HIGH</td>
         <td>v1.24.3</td>
         <td>1.24.12, 1.25.6</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-68121</td>
-        <td>HIGH</td>
-        <td>v1.24.3</td>
-        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -263,6 +270,13 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.3</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
         <td>CVE-2025-22874</td>
         <td>HIGH</td>
         <td>v1.24.3</td>
@@ -309,13 +323,6 @@
         <td>HIGH</td>
         <td>v1.24.3</td>
         <td>1.24.12, 1.25.6</td>
-    </tr>
-    <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-68121</td>
-        <td>HIGH</td>
-        <td>v1.24.3</td>
-        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

@@ -69,7 +69,7 @@
 <h4>No Misconfigurations found</h4>
 
 <h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (403)</h4>
+<h4>Vulnerabilities (402)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -221,7 +221,7 @@
     <tr>
         <td><code>libpython3.11</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
@@ -256,7 +256,7 @@
     <tr>
         <td><code>libpython3.11-dev</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
@@ -291,7 +291,7 @@
     <tr>
         <td><code>libpython3.11-minimal</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
@@ -326,7 +326,7 @@
     <tr>
         <td><code>libpython3.11-stdlib</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
@@ -2676,13 +2676,6 @@
         <td>6.1.162-1</td>
     </tr>
     <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2026-23103</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td>6.1.162-1</td>
-    </tr>
-    <tr>
         <td><code>openssl</code></td>
         <td>CVE-2025-15467</td>
         <td>CRITICAL</td>
@@ -2748,7 +2741,7 @@
     <tr>
         <td><code>python3.11</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
@@ -2783,7 +2776,7 @@
     <tr>
         <td><code>python3.11-dev</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
@@ -2818,7 +2811,7 @@
     <tr>
         <td><code>python3.11-minimal</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
@@ -2853,7 +2846,7 @@
     <tr>
         <td><code>python3.11-venv</code></td>
         <td>CVE-2025-13836</td>
-        <td>CRITICAL</td>
+        <td>HIGH</td>
         <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
