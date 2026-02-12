@@ -91,7 +91,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (12)</h4>
+<h4>Vulnerabilities (13)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -148,6 +148,13 @@
         <td>HIGH</td>
         <td>11.2.1</td>
         <td>11.3.0</td>
+    </tr>
+    <tr>
+        <td><code>pillow</code></td>
+        <td>CVE-2026-25990</td>
+        <td>HIGH</td>
+        <td>11.2.1</td>
+        <td>12.1.1</td>
     </tr>
     <tr>
         <td><code>protobuf</code></td>
