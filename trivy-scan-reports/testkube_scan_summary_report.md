@@ -648,14 +648,14 @@
         <td>CVE-2025-69419</td>
         <td>HIGH</td>
         <td>1.1.1w-0+deb11u1</td>
-        <td></td>
+        <td>1.1.1w-0+deb11u5</td>
     </tr>
     <tr>
         <td><code>libssl1.1</code></td>
         <td>CVE-2025-69421</td>
         <td>HIGH</td>
         <td>1.1.1w-0+deb11u1</td>
-        <td></td>
+        <td>1.1.1w-0+deb11u5</td>
     </tr>
     <tr>
         <td><code>libsystemd0</code></td>
@@ -697,14 +697,14 @@
         <td>CVE-2025-69419</td>
         <td>HIGH</td>
         <td>1.1.1w-0+deb11u1</td>
-        <td></td>
+        <td>1.1.1w-0+deb11u5</td>
     </tr>
     <tr>
         <td><code>openssl</code></td>
         <td>CVE-2025-69421</td>
         <td>HIGH</td>
         <td>1.1.1w-0+deb11u1</td>
-        <td></td>
+        <td>1.1.1w-0+deb11u5</td>
     </tr>
     <tr>
         <td><code>perl-base</code></td>
