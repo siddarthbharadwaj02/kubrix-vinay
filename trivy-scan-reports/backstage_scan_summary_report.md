@@ -2965,7 +2965,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (134)</h4>
+<h4>Vulnerabilities (135)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -3099,6 +3099,13 @@
         <td>HIGH</td>
         <td>1.9.0</td>
         <td>1.13.5, 0.30.3</td>
+    </tr>
+    <tr>
+        <td><code>basic-ftp</code></td>
+        <td>CVE-2026-27699</td>
+        <td>CRITICAL</td>
+        <td>5.0.5</td>
+        <td>5.2.0</td>
     </tr>
     <tr>
         <td><code>cross-spawn</code></td>
