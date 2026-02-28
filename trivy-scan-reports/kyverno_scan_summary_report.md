@@ -1,224 +1,11 @@
 
-<h3>Target <code>bitnami/kubectl:1.32.3 (debian 12.10)</code></h3>
-<h4>Vulnerabilities (26)</h4>
-<table>
-    <tr>
-        <th>Package</th>
-        <th>ID</th>
-        <th>Severity</th>
-        <th>Installed Version</th>
-        <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>libc-bin</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libc6</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libexpat1</code></td>
-        <td>CVE-2023-52425</td>
-        <td>HIGH</td>
-        <td>2.5.0-1+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libexpat1</code></td>
-        <td>CVE-2024-8176</td>
-        <td>HIGH</td>
-        <td>2.5.0-1+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libfile-find-rule-perl</code></td>
-        <td>CVE-2011-10007</td>
-        <td>HIGH</td>
-        <td>0.34-3</td>
-        <td>0.34-4~deb12u1</td>
-    </tr>
-    <tr>
-        <td><code>libicu72</code></td>
-        <td>CVE-2025-5222</td>
-        <td>HIGH</td>
-        <td>72.1-3</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libldap-2.5-0</code></td>
-        <td>CVE-2023-2953</td>
-        <td>HIGH</td>
-        <td>2.5.13+dfsg-5</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-modules</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-modules-bin</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-runtime</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam0g</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libperl5.36</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-49794</td>
-        <td>CRITICAL</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-49796</td>
-        <td>CRITICAL</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2024-25062</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2024-56171</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-24928</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-27113</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-32414</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-32415</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-49795</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-6021</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl-base</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl-modules-5.36</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>zlib1g</code></td>
-        <td>CVE-2023-45853</td>
-        <td>CRITICAL</td>
-        <td>1:1.2.13.dfsg-1</td>
-        <td></td>
-    </tr>
-</table>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/common</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/common/.spdx-yq.spdx</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/common/bin/yq</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/kubectl</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/kubectl/.spdx-kubectl.spdx</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/kubectl/bin/kubectl</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-
 <h3>Trivy Returned Empty Report</h3>
 
-<h3>Target <code>reg.kyverno.io/kyverno/background-controller:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/background-controller:v1.15.2 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/background-controller</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -228,20 +15,90 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>github.com/open-policy-agent/opa</code></td>
-        <td>CVE-2025-46569</td>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-22039</td>
+        <td>CRITICAL</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-23881</td>
         <td>HIGH</td>
-        <td>v1.1.0</td>
-        <td>1.4.0</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.37.0</td>
+        <td>1.40.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.6</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/cleanup-controller:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/cleanup-controller:v1.15.2 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/cleanup-controller</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -251,20 +108,90 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>github.com/open-policy-agent/opa</code></td>
-        <td>CVE-2025-46569</td>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-22039</td>
+        <td>CRITICAL</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-23881</td>
         <td>HIGH</td>
-        <td>v1.1.0</td>
-        <td>1.4.0</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.37.0</td>
+        <td>1.40.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.6</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/kyverno-cli:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/kyverno-cli:v1.15.2 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kubectl-kyverno</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -274,20 +201,90 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>github.com/open-policy-agent/opa</code></td>
-        <td>CVE-2025-46569</td>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-22039</td>
+        <td>CRITICAL</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-23881</td>
         <td>HIGH</td>
-        <td>v1.1.0</td>
-        <td>1.4.0</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.37.0</td>
+        <td>1.40.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.6</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/kyverno:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/kyverno:v1.15.2 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kyverno</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -297,20 +294,90 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>github.com/open-policy-agent/opa</code></td>
-        <td>CVE-2025-46569</td>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-22039</td>
+        <td>CRITICAL</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-23881</td>
         <td>HIGH</td>
-        <td>v1.1.0</td>
-        <td>1.4.0</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.37.0</td>
+        <td>1.40.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.6</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/kyvernopre:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/kyvernopre:v1.15.2 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/kyverno-init</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -320,20 +387,90 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>github.com/open-policy-agent/opa</code></td>
-        <td>CVE-2025-46569</td>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-22039</td>
+        <td>CRITICAL</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-23881</td>
         <td>HIGH</td>
-        <td>v1.1.0</td>
-        <td>1.4.0</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.37.0</td>
+        <td>1.40.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.6</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 
-<h3>Target <code>reg.kyverno.io/kyverno/reports-controller:v1.14.2 (wolfi 20230201)</code></h3>
+<h3>Target <code>reg.kyverno.io/kyverno/reports-controller:v1.15.2 (alpine 3.23.0_alpha20250612)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>ko-app/reports-controller</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (11)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -343,11 +480,214 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>github.com/open-policy-agent/opa</code></td>
-        <td>CVE-2025-46569</td>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-22039</td>
+        <td>CRITICAL</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/kyverno/kyverno</code></td>
+        <td>CVE-2026-23881</td>
         <td>HIGH</td>
-        <td>v1.1.0</td>
-        <td>1.4.0</td>
+        <td>v1.15.2+dirty</td>
+        <td>1.15.3, 1.16.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/fulcio</code></td>
+        <td>CVE-2025-66506</td>
+        <td>HIGH</td>
+        <td>v1.6.6</td>
+        <td>1.8.3</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.4</td>
+        <td>2.0.3</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.37.0</td>
+        <td>1.40.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.6</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.6</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+</table>
+<h4>No Misconfigurations found</h4>
+
+<h3>Target <code>registry.k8s.io/kubectl:v1.32.7 (debian 12.11)</code></h3>
+<h4>No Vulnerabilities found</h4>
+<h4>No Misconfigurations found</h4>
+<h3>Target <code>bin/kubectl</code></h3>
+<h4>Vulnerabilities (8)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>golang.org/x/oauth2</code></td>
+        <td>CVE-2025-22868</td>
+        <td>HIGH</td>
+        <td>v0.23.0</td>
+        <td>0.27.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.23.10</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-47907</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.23.12, 1.24.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+</table>
+<h4>No Misconfigurations found</h4>
+<h3>Target <code>go-runner</code></h3>
+<h4>Vulnerabilities (7)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.23.10</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-47907</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.23.12, 1.24.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.23.10</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

@@ -1,6 +1,6 @@
 
-<h3>Target <code>docker.io/bitnami/keycloak:26.2.5-debian-12-r1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (13)</h4>
+<h3>Target <code>alpine:3.17 (alpine 3.17.10)</code></h3>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -10,95 +10,170 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>libc-bin</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libc6</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libfile-find-rule-perl</code></td>
-        <td>CVE-2011-10007</td>
-        <td>HIGH</td>
-        <td>0.34-3</td>
-        <td>0.34-4~deb12u1</td>
-    </tr>
-    <tr>
-        <td><code>libldap-2.5-0</code></td>
-        <td>CVE-2023-2953</td>
-        <td>HIGH</td>
-        <td>2.5.13+dfsg-5</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-modules</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-modules-bin</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-runtime</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam0g</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libperl5.36</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl-base</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl-modules-5.36</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>zlib1g</code></td>
-        <td>CVE-2023-45853</td>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
         <td>CRITICAL</td>
-        <td>1:1.2.13.dfsg-1</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>musl</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.3-r5</td>
+        <td>1.2.3-r6</td>
+    </tr>
+    <tr>
+        <td><code>musl-utils</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.3-r5</td>
+        <td>1.2.3-r6</td>
+    </tr>
+</table>
+<h4>No Misconfigurations found</h4>
+
+<h3>Target <code>curlimages/curl:latest (alpine 3.23.0)</code></h3>
+<h4>Vulnerabilities (6)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.4-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.5.4-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.5.4-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.4-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.5.4-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.5.4-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+</table>
+<h4>No Misconfigurations found</h4>
+
+<h3>Target <code>quay.io/keycloak/keycloak-operator:26.3.2 (redhat 9.6)</code></h3>
+<h4>Vulnerabilities (6)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>java-21-openjdk-headless</code></td>
+        <td>CVE-2025-64720</td>
+        <td>HIGH</td>
+        <td>1:21.0.8.0.9-1.el9</td>
+        <td>1:21.0.10.0.7-1.el9</td>
+    </tr>
+    <tr>
+        <td><code>java-21-openjdk-headless</code></td>
+        <td>CVE-2025-65018</td>
+        <td>HIGH</td>
+        <td>1:21.0.8.0.9-1.el9</td>
+        <td>1:21.0.10.0.7-1.el9</td>
+    </tr>
+    <tr>
+        <td><code>java-21-openjdk-headless</code></td>
+        <td>CVE-2025-66293</td>
+        <td>HIGH</td>
+        <td>1:21.0.8.0.9-1.el9</td>
         <td></td>
+    </tr>
+    <tr>
+        <td><code>java-21-openjdk-headless</code></td>
+        <td>CVE-2026-21945</td>
+        <td>HIGH</td>
+        <td>1:21.0.8.0.9-1.el9</td>
+        <td>1:21.0.10.0.7-1.el9</td>
+    </tr>
+    <tr>
+        <td><code>java-21-openjdk-headless</code></td>
+        <td>CVE-2026-22184</td>
+        <td>HIGH</td>
+        <td>1:21.0.8.0.9-1.el9</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>sqlite-libs</code></td>
+        <td>CVE-2025-6965</td>
+        <td>HIGH</td>
+        <td>3.34.1-8.el9_6</td>
+        <td>3.34.1-9.el9_7</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
@@ -113,250 +188,18 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>org.postgresql:postgresql</code></td>
-        <td>CVE-2025-49146</td>
+        <td><code>com.fasterxml.jackson.core:jackson-core</code></td>
+        <td>GHSA-72hv-8253-57qq</td>
         <td>HIGH</td>
-        <td>42.7.5</td>
-        <td>42.7.7</td>
+        <td>2.18.2</td>
+        <td>2.18.6, 2.21.1, 3.1.0</td>
     </tr>
     <tr>
-        <td><code>org.postgresql:postgresql</code></td>
-        <td>CVE-2025-49146</td>
+        <td><code>io.netty:netty-codec-http2</code></td>
+        <td>CVE-2025-55163</td>
         <td>HIGH</td>
-        <td>42.7.6</td>
-        <td>42.7.7</td>
+        <td>4.1.121.Final</td>
+        <td>4.2.4.Final, 4.1.124.Final</td>
     </tr>
 </table>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/common</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/common/.spdx-wait-for-port.spdx</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/common/bin/wait-for-port</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/java</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/keycloak</code></h3>
-<h4>Vulnerabilities (1)</h4>
-<table>
-    <tr>
-        <th>Package</th>
-        <th>ID</th>
-        <th>Severity</th>
-        <th>Installed Version</th>
-        <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>postgresql-jdbc-driver</code></td>
-        <td>CVE-2025-49146</td>
-        <td>HIGH</td>
-        <td>42.7.6</td>
-        <td>42.7.7</td>
-    </tr>
-</table>
-<h4>No Misconfigurations found</h4>
-
-<h3>Target <code>docker.io/bitnami/postgresql:17.5.0-debian-12-r10 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (26)</h4>
-<table>
-    <tr>
-        <th>Package</th>
-        <th>ID</th>
-        <th>Severity</th>
-        <th>Installed Version</th>
-        <th>Fixed Version</th>
-    </tr>
-    <tr>
-        <td><code>libc-bin</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libc-l10n</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libc6</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libfile-find-rule-perl</code></td>
-        <td>CVE-2011-10007</td>
-        <td>HIGH</td>
-        <td>0.34-3</td>
-        <td>0.34-4~deb12u1</td>
-    </tr>
-    <tr>
-        <td><code>libicu72</code></td>
-        <td>CVE-2025-5222</td>
-        <td>HIGH</td>
-        <td>72.1-3</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libldap-2.5-0</code></td>
-        <td>CVE-2023-2953</td>
-        <td>HIGH</td>
-        <td>2.5.13+dfsg-5</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-modules</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-modules-bin</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam-runtime</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libpam0g</code></td>
-        <td>CVE-2025-6020</td>
-        <td>HIGH</td>
-        <td>1.5.2-6+deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libperl5.36</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-49794</td>
-        <td>CRITICAL</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-49796</td>
-        <td>CRITICAL</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2024-25062</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2024-56171</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-24928</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-27113</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-32414</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-32415</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-49795</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>libxml2</code></td>
-        <td>CVE-2025-6021</td>
-        <td>HIGH</td>
-        <td>2.9.14+dfsg-1.3~deb12u1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>locales</code></td>
-        <td>CVE-2025-4802</td>
-        <td>HIGH</td>
-        <td>2.36-9+deb12u10</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl-base</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>perl-modules-5.36</code></td>
-        <td>CVE-2023-31484</td>
-        <td>HIGH</td>
-        <td>5.36.0-7+deb12u2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>zlib1g</code></td>
-        <td>CVE-2023-45853</td>
-        <td>CRITICAL</td>
-        <td>1:1.2.13.dfsg-1</td>
-        <td></td>
-    </tr>
-</table>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>Java</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>opt/bitnami/postgresql</code></h3>
-<h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>

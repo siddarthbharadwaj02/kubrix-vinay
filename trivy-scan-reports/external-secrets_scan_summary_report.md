@@ -1,9 +1,9 @@
 
-<h3>Target <code>oci.external-secrets.io/external-secrets/external-secrets:v0.16.2 (debian 12.10)</code></h3>
+<h3>Target <code>oci.external-secrets.io/external-secrets/external-secrets:v0.18.2 (debian 12.11)</code></h3>
 <h4>No Vulnerabilities found</h4>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>bin/external-secrets</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h4>Vulnerabilities (7)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -14,10 +14,52 @@
     </tr>
     <tr>
         <td><code>stdlib</code></td>
-        <td>CVE-2025-22874</td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.4</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-47907</td>
         <td>HIGH</td>
-        <td>v1.24.2</td>
-        <td>1.24.4</td>
+        <td>v1.24.4</td>
+        <td>1.23.12, 1.24.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

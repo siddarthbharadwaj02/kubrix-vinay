@@ -1,10 +1,6 @@
 
 <h3>Target <code>alpine:3.17 (alpine 3.17.10)</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-
-<h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
-<h4>Vulnerabilities (103)</h4>
+<h4>Vulnerabilities (8)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -14,8 +10,91 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.15-r0</td>
+        <td>3.0.19-r0</td>
+    </tr>
+    <tr>
+        <td><code>musl</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.3-r5</td>
+        <td>1.2.3-r6</td>
+    </tr>
+    <tr>
+        <td><code>musl-utils</code></td>
+        <td>CVE-2025-26519</td>
+        <td>HIGH</td>
+        <td>1.2.3-r5</td>
+        <td>1.2.3-r6</td>
+    </tr>
+</table>
+<h4>No Misconfigurations found</h4>
+
+<h3>Target <code>ghcr.io/suxess-it/sx-backstage:v1.38.1 (debian 12.11)</code></h3>
+<h4>Vulnerabilities (418)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>gpgv</code></td>
+        <td>CVE-2025-68973</td>
+        <td>HIGH</td>
+        <td>2.2.40-1.1</td>
+        <td>2.2.40-1.1+deb12u2</td>
+    </tr>
+    <tr>
         <td><code>libc-bin</code></td>
         <td>CVE-2025-4802</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
+        <td>2.36-9+deb12u11</td>
+    </tr>
+    <tr>
+        <td><code>libc-bin</code></td>
+        <td>CVE-2026-0861</td>
         <td>HIGH</td>
         <td>2.36-9+deb12u10</td>
         <td></td>
@@ -25,11 +104,25 @@
         <td>CVE-2025-4802</td>
         <td>HIGH</td>
         <td>2.36-9+deb12u10</td>
+        <td>2.36-9+deb12u11</td>
+    </tr>
+    <tr>
+        <td><code>libc-dev-bin</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
         <td></td>
     </tr>
     <tr>
         <td><code>libc6</code></td>
         <td>CVE-2025-4802</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
+        <td>2.36-9+deb12u11</td>
+    </tr>
+    <tr>
+        <td><code>libc6</code></td>
+        <td>CVE-2026-0861</td>
         <td>HIGH</td>
         <td>2.36-9+deb12u10</td>
         <td></td>
@@ -39,6 +132,13 @@
         <td>CVE-2025-4802</td>
         <td>HIGH</td>
         <td>2.36-9+deb12u10</td>
+        <td>2.36-9+deb12u11</td>
+    </tr>
+    <tr>
+        <td><code>libc6-dev</code></td>
+        <td>CVE-2026-0861</td>
+        <td>HIGH</td>
+        <td>2.36-9+deb12u10</td>
         <td></td>
     </tr>
     <tr>
@@ -46,63 +146,266 @@
         <td>CVE-2023-52425</td>
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
-        <td></td>
+        <td>2.5.0-1+deb12u2</td>
     </tr>
     <tr>
         <td><code>libexpat1</code></td>
         <td>CVE-2024-8176</td>
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
-        <td></td>
+        <td>2.5.0-1+deb12u2</td>
     </tr>
     <tr>
         <td><code>libexpat1-dev</code></td>
         <td>CVE-2023-52425</td>
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
-        <td></td>
+        <td>2.5.0-1+deb12u2</td>
     </tr>
     <tr>
         <td><code>libexpat1-dev</code></td>
         <td>CVE-2024-8176</td>
         <td>HIGH</td>
         <td>2.5.0-1+deb12u1</td>
-        <td></td>
+        <td>2.5.0-1+deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>libgnutls30</code></td>
+        <td>CVE-2025-32988</td>
+        <td>HIGH</td>
+        <td>3.7.9-2+deb12u4</td>
+        <td>3.7.9-2+deb12u5</td>
+    </tr>
+    <tr>
+        <td><code>libgnutls30</code></td>
+        <td>CVE-2025-32990</td>
+        <td>HIGH</td>
+        <td>3.7.9-2+deb12u4</td>
+        <td>3.7.9-2+deb12u5</td>
     </tr>
     <tr>
         <td><code>libpam-modules</code></td>
         <td>CVE-2025-6020</td>
         <td>HIGH</td>
         <td>1.5.2-6+deb12u1</td>
-        <td></td>
+        <td>1.5.2-6+deb12u2</td>
     </tr>
     <tr>
         <td><code>libpam-modules-bin</code></td>
         <td>CVE-2025-6020</td>
         <td>HIGH</td>
         <td>1.5.2-6+deb12u1</td>
-        <td></td>
+        <td>1.5.2-6+deb12u2</td>
     </tr>
     <tr>
         <td><code>libpam-runtime</code></td>
         <td>CVE-2025-6020</td>
         <td>HIGH</td>
         <td>1.5.2-6+deb12u1</td>
-        <td></td>
+        <td>1.5.2-6+deb12u2</td>
     </tr>
     <tr>
         <td><code>libpam0g</code></td>
         <td>CVE-2025-6020</td>
         <td>HIGH</td>
         <td>1.5.2-6+deb12u1</td>
-        <td></td>
+        <td>1.5.2-6+deb12u2</td>
     </tr>
     <tr>
         <td><code>libperl5.36</code></td>
         <td>CVE-2023-31484</td>
         <td>HIGH</td>
         <td>5.36.0-7+deb12u2</td>
+        <td>5.36.0-7+deb12u3</td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
         <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-dev</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-dev</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-dev</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-dev</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-dev</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-minimal</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-minimal</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-minimal</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-minimal</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-minimal</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-stdlib</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-stdlib</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-stdlib</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-stdlib</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libpython3.11-stdlib</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libsqlite3-0</code></td>
+        <td>CVE-2025-6965</td>
+        <td>CRITICAL</td>
+        <td>3.40.1-2+deb12u1</td>
+        <td>3.40.1-2+deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>libsqlite3-0</code></td>
+        <td>CVE-2025-7458</td>
+        <td>CRITICAL</td>
+        <td>3.40.1-2+deb12u1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libsqlite3-dev</code></td>
+        <td>CVE-2025-6965</td>
+        <td>CRITICAL</td>
+        <td>3.40.1-2+deb12u1</td>
+        <td>3.40.1-2+deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>libsqlite3-dev</code></td>
+        <td>CVE-2025-7458</td>
+        <td>CRITICAL</td>
+        <td>3.40.1-2+deb12u1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -169,6 +472,34 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
+        <td>CVE-2023-53218</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2023-53510</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2023-53762</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2023-54285</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-21803</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -211,7 +542,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-26930</td>
+        <td>CVE-2024-26914</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -239,21 +570,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-35929</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-36013</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-36921</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -274,21 +591,28 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-39479</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-39508</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-41013</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2024-41045</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2024-41935</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2024-42118</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -323,10 +647,17 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-46786</td>
+        <td>CVE-2024-46729</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2024-46786</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -351,21 +682,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-49928</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-50029</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-50112</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -386,6 +703,13 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
+        <td>CVE-2024-50282</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-53068</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -393,14 +717,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-53108</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-53133</td>
+        <td>CVE-2024-53147</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -428,7 +745,7 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-54456</td>
+        <td>CVE-2024-53218</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -443,13 +760,6 @@
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2024-56775</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2024-56784</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -477,10 +787,17 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-21759</td>
+        <td>CVE-2024-58093</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2024-58240</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -498,6 +815,13 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-21946</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-21967</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
@@ -512,10 +836,31 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-22026</td>
+        <td>CVE-2025-21985</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-22022</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-22039</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-22083</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
@@ -526,14 +871,21 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-22113</td>
+        <td>CVE-2025-22107</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
-        <td></td>
+        <td>6.1.162-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-22121</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-23133</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -547,56 +899,56 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37799</td>
+        <td>CVE-2025-37776</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37807</td>
+        <td>CVE-2025-37777</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37833</td>
+        <td>CVE-2025-37786</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37834</td>
+        <td>CVE-2025-37822</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37878</td>
+        <td>CVE-2025-37861</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37920</td>
+        <td>CVE-2025-37899</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
-        <td></td>
+        <td>6.1.159-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37942</td>
+        <td>CVE-2025-37926</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
-        <td></td>
+        <td>6.1.162-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37945</td>
+        <td>CVE-2025-37952</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
@@ -610,114 +962,2032 @@
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37968</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37977</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37984</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37995</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-37997</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-38000</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38001</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-38003</td>
-        <td>HIGH</td>
-        <td>6.1.140-1</td>
-        <td></td>
+        <td>6.1.147-1</td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
         <td>CVE-2025-38004</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38022</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38051</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38052</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38068</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38069</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
         <td></td>
     </tr>
     <tr>
         <td><code>linux-libc-dev</code></td>
-        <td>CVE-2025-40014</td>
+        <td>CVE-2025-38077</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38079</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38081</td>
         <td>HIGH</td>
         <td>6.1.140-1</td>
         <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38088</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38102</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38103</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38107</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38108</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38111</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38117</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38118</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38129</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38131</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38146</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38153</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38154</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38157</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38159</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38180</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38182</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38183</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38198</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38201</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38204</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38206</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38211</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38212</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38226</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38227</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38230</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38236</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38239</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38245</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38248</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38249</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38250</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38257</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38259</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38280</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38286</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38298</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38313</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38320</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38323</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38342</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38346</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38348</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38350</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38352</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38361</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38369</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38375</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38377</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38385</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38389</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38395</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38396</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38401</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38403</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38415</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38416</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38422</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38425</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38428</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38437</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38443</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38445</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38456</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38459</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38464</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38471</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38476</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38482</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38483</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38485</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38488</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38494</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38497</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38500</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38502</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38512</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38527</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38529</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38530</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38535</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38538</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38548</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38550</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.147-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38552</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38555</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38556</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38563</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38565</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38572</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38574</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38579</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38582</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38584</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38585</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38593</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38595</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38616</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38618</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38627</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38636</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38652</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38653</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38666</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38670</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38676</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38677</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38679</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38680</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38685</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38697</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38699</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38702</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38704</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38707</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38708</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38713</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38714</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38715</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38718</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38722</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38724</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38728</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38729</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38734</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-38736</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39682</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39683</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39685</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39686</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39687</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39689</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39691</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39701</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39702</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39710</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39719</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39730</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.148-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39738</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39743</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39744</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39749</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39757</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39759</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39760</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39766</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39776</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39783</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39788</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39790</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39797</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39806</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39810</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39817</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39823</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39824</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39826</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39828</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39835</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39839</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39841</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39849</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39853</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39859</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39860</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39863</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39864</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39866</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39869</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39870</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39871</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39873</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39877</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39880</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39881</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39883</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39891</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39901</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39911</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39913</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.153-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39943</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39944</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39945</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39951</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39952</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39955</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39957</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39967</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39971</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39973</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39981</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39982</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-39993</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40064</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40082</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40096</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40135</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40141</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40149</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40154</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40158</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40168</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40170</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40176</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40186</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40240</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.158-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40248</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40258</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40259</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40269</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40271</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40277</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40294</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40301</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40304</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40318</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40322</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-40328</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68285</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68287</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68301</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.159-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68324</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68349</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68369</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68800</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-68817</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-71085</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-71089</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-71116</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-71152</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2025-71162</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-22980</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-22984</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23001</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23010</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23050</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23054</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23066</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23074</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23097</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23111</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23112</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23139</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23144</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23156</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td>6.1.162-1</td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23171</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23191</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23193</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23204</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>linux-libc-dev</code></td>
+        <td>CVE-2026-23209</td>
+        <td>HIGH</td>
+        <td>6.1.140-1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>openssl</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.0.16-1~deb12u1</td>
+        <td>3.0.18-1~deb12u2</td>
     </tr>
     <tr>
         <td><code>perl</code></td>
         <td>CVE-2023-31484</td>
         <td>HIGH</td>
         <td>5.36.0-7+deb12u2</td>
-        <td></td>
+        <td>5.36.0-7+deb12u3</td>
     </tr>
     <tr>
         <td><code>perl-base</code></td>
         <td>CVE-2023-31484</td>
         <td>HIGH</td>
         <td>5.36.0-7+deb12u2</td>
-        <td></td>
+        <td>5.36.0-7+deb12u3</td>
     </tr>
     <tr>
         <td><code>perl-modules-5.36</code></td>
         <td>CVE-2023-31484</td>
         <td>HIGH</td>
         <td>5.36.0-7+deb12u2</td>
-        <td></td>
+        <td>5.36.0-7+deb12u3</td>
     </tr>
     <tr>
         <td><code>python3-pkg-resources</code></td>
         <td>CVE-2025-47273</td>
         <td>HIGH</td>
         <td>66.1.1-1+deb12u1</td>
-        <td></td>
+        <td>66.1.1-1+deb12u2</td>
     </tr>
     <tr>
         <td><code>python3-setuptools</code></td>
         <td>CVE-2025-47273</td>
         <td>HIGH</td>
         <td>66.1.1-1+deb12u1</td>
-        <td></td>
+        <td>66.1.1-1+deb12u2</td>
     </tr>
     <tr>
         <td><code>python3-setuptools-whl</code></td>
         <td>CVE-2025-47273</td>
         <td>HIGH</td>
         <td>66.1.1-1+deb12u1</td>
+        <td>66.1.1-1+deb12u2</td>
+    </tr>
+    <tr>
+        <td><code>python3.11</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-dev</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-dev</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-dev</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-dev</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-dev</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-minimal</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-minimal</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-minimal</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-minimal</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-minimal</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-venv</code></td>
+        <td>CVE-2025-13836</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-venv</code></td>
+        <td>CVE-2025-15366</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-venv</code></td>
+        <td>CVE-2025-15367</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-venv</code></td>
+        <td>CVE-2025-8194</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>python3.11-venv</code></td>
+        <td>CVE-2026-1299</td>
+        <td>HIGH</td>
+        <td>3.11.2-6+deb12u6</td>
         <td></td>
     </tr>
     <tr>
@@ -737,7 +3007,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Node.js</code></h3>
-<h4>Vulnerabilities (6)</h4>
+<h4>Vulnerabilities (153)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -747,6 +3017,139 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
+        <td><code>@backstage/backend-defaults</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.10.0</td>
+        <td>0.12.2, 0.13.2, 0.14.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/backend-defaults</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.10.0</td>
+        <td>0.12.2, 0.13.2, 0.14.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/backend-defaults</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.10.0</td>
+        <td>0.12.2, 0.13.2, 0.14.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/backend-defaults</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.10.0</td>
+        <td>0.12.2, 0.13.2, 0.14.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/backend-defaults</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.10.0</td>
+        <td>0.12.2, 0.13.2, 0.14.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/backend-defaults</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.8.2</td>
+        <td>0.12.2, 0.13.2, 0.14.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/backend-defaults</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.9.0</td>
+        <td>0.12.2, 0.13.2, 0.14.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/plugin-scaffolder-backend</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>1.33.0</td>
+        <td>2.2.2, 3.0.2, 3.1.1</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/plugin-scaffolder-node</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.6.3</td>
+        <td>0.11.2, 0.12.3</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/plugin-scaffolder-node</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.6.3</td>
+        <td>0.11.2, 0.12.3</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/plugin-scaffolder-node</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.6.3</td>
+        <td>0.11.2, 0.12.3</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/plugin-scaffolder-node</code></td>
+        <td>CVE-2026-24046</td>
+        <td>HIGH</td>
+        <td>0.8.2</td>
+        <td>0.11.2, 0.12.3</td>
+    </tr>
+    <tr>
+        <td><code>@backstage/plugin-techdocs-node</code></td>
+        <td>CVE-2026-25153</td>
+        <td>HIGH</td>
+        <td>1.13.3</td>
+        <td>1.14.1, 1.13.11</td>
+    </tr>
+    <tr>
+        <td><code>@node-saml/node-saml</code></td>
+        <td>CVE-2025-54369</td>
+        <td>CRITICAL</td>
+        <td>5.0.1</td>
+        <td>5.1.0</td>
+    </tr>
+    <tr>
+        <td><code>@node-saml/node-saml</code></td>
+        <td>CVE-2025-54419</td>
+        <td>CRITICAL</td>
+        <td>5.0.1</td>
+        <td>5.1.0</td>
+    </tr>
+    <tr>
+        <td><code>@node-saml/passport-saml</code></td>
+        <td>CVE-2025-54419</td>
+        <td>CRITICAL</td>
+        <td>5.0.1</td>
+        <td>5.1.0</td>
+    </tr>
+    <tr>
+        <td><code>axios</code></td>
+        <td>CVE-2025-58754</td>
+        <td>HIGH</td>
+        <td>1.9.0</td>
+        <td>1.12.0, 0.30.2</td>
+    </tr>
+    <tr>
+        <td><code>axios</code></td>
+        <td>CVE-2026-25639</td>
+        <td>HIGH</td>
+        <td>1.9.0</td>
+        <td>1.13.5, 0.30.3</td>
+    </tr>
+    <tr>
+        <td><code>basic-ftp</code></td>
+        <td>CVE-2026-27699</td>
+        <td>CRITICAL</td>
+        <td>5.0.5</td>
+        <td>5.2.0</td>
+    </tr>
+    <tr>
         <td><code>cross-spawn</code></td>
         <td>CVE-2024-21538</td>
         <td>HIGH</td>
@@ -754,6 +3157,90 @@
         <td>7.0.5, 6.0.6</td>
     </tr>
     <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-25896</td>
+        <td>CRITICAL</td>
+        <td>4.4.1</td>
+        <td>5.3.5, 4.5.4</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-26278</td>
+        <td>HIGH</td>
+        <td>4.4.1</td>
+        <td>4.5.4, 5.3.6</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-25896</td>
+        <td>CRITICAL</td>
+        <td>4.5.3</td>
+        <td>5.3.5, 4.5.4</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-26278</td>
+        <td>HIGH</td>
+        <td>4.5.3</td>
+        <td>4.5.4, 5.3.6</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-25896</td>
+        <td>CRITICAL</td>
+        <td>5.2.3</td>
+        <td>5.3.5, 4.5.4</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-25128</td>
+        <td>HIGH</td>
+        <td>5.2.3</td>
+        <td>5.3.4</td>
+    </tr>
+    <tr>
+        <td><code>fast-xml-parser</code></td>
+        <td>CVE-2026-26278</td>
+        <td>HIGH</td>
+        <td>5.2.3</td>
+        <td>4.5.4, 5.3.6</td>
+    </tr>
+    <tr>
+        <td><code>form-data</code></td>
+        <td>CVE-2025-7783</td>
+        <td>CRITICAL</td>
+        <td>2.3.3</td>
+        <td>2.5.4, 3.0.4, 4.0.4</td>
+    </tr>
+    <tr>
+        <td><code>form-data</code></td>
+        <td>CVE-2025-7783</td>
+        <td>CRITICAL</td>
+        <td>2.5.3</td>
+        <td>2.5.4, 3.0.4, 4.0.4</td>
+    </tr>
+    <tr>
+        <td><code>form-data</code></td>
+        <td>CVE-2025-7783</td>
+        <td>CRITICAL</td>
+        <td>4.0.2</td>
+        <td>2.5.4, 3.0.4, 4.0.4</td>
+    </tr>
+    <tr>
+        <td><code>glob</code></td>
+        <td>CVE-2025-64756</td>
+        <td>HIGH</td>
+        <td>10.4.2</td>
+        <td>11.1.0, 10.5.0</td>
+    </tr>
+    <tr>
+        <td><code>glob</code></td>
+        <td>CVE-2025-64756</td>
+        <td>HIGH</td>
+        <td>10.4.5</td>
+        <td>11.1.0, 10.5.0</td>
+    </tr>
+    <tr>
         <td><code>jsonpath-plus</code></td>
         <td>CVE-2024-21534</td>
         <td>CRITICAL</td>
@@ -780,6 +3267,216 @@
         <td>HIGH</td>
         <td>7.2.0</td>
         <td>10.3.0</td>
+    </tr>
+    <tr>
+        <td><code>jws</code></td>
+        <td>CVE-2025-65945</td>
+        <td>HIGH</td>
+        <td>3.2.2</td>
+        <td>3.2.3, 4.0.1</td>
+    </tr>
+    <tr>
+        <td><code>jws</code></td>
+        <td>CVE-2025-65945</td>
+        <td>HIGH</td>
+        <td>4.0.0</td>
+        <td>3.2.3, 4.0.1</td>
+    </tr>
+    <tr>
+        <td><code>linkifyjs</code></td>
+        <td>CVE-2025-8101</td>
+        <td>HIGH</td>
+        <td>4.1.3</td>
+        <td>4.3.2</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>3.1.2</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>5.1.6</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>5.1.6</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>5.1.6</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>5.1.6</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>5.1.6</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>5.1.6</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>7.4.6</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>7.4.6</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>7.4.6</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>9.0.5</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-26996</td>
+        <td>HIGH</td>
+        <td>9.0.5</td>
+        <td>10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>9.0.5</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27903</td>
+        <td>HIGH</td>
+        <td>9.0.5</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>9.0.5</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
+    </tr>
+    <tr>
+        <td><code>minimatch</code></td>
+        <td>CVE-2026-27904</td>
+        <td>HIGH</td>
+        <td>9.0.5</td>
+        <td>10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4</td>
     </tr>
     <tr>
         <td><code>multer</code></td>
@@ -788,10 +3485,612 @@
         <td>2.0.0</td>
         <td>2.0.1</td>
     </tr>
+    <tr>
+        <td><code>multer</code></td>
+        <td>CVE-2025-7338</td>
+        <td>HIGH</td>
+        <td>2.0.0</td>
+        <td>2.0.2</td>
+    </tr>
+    <tr>
+        <td><code>node-forge</code></td>
+        <td>CVE-2025-12816</td>
+        <td>HIGH</td>
+        <td>1.3.1</td>
+        <td>1.3.2</td>
+    </tr>
+    <tr>
+        <td><code>node-forge</code></td>
+        <td>CVE-2025-66031</td>
+        <td>HIGH</td>
+        <td>1.3.1</td>
+        <td>1.3.2</td>
+    </tr>
+    <tr>
+        <td><code>qs</code></td>
+        <td>CVE-2025-15284</td>
+        <td>HIGH</td>
+        <td>6.13.0</td>
+        <td>6.14.1</td>
+    </tr>
+    <tr>
+        <td><code>qs</code></td>
+        <td>CVE-2025-15284</td>
+        <td>HIGH</td>
+        <td>6.13.0</td>
+        <td>6.14.1</td>
+    </tr>
+    <tr>
+        <td><code>qs</code></td>
+        <td>CVE-2025-15284</td>
+        <td>HIGH</td>
+        <td>6.14.0</td>
+        <td>6.14.1</td>
+    </tr>
+    <tr>
+        <td><code>qs</code></td>
+        <td>CVE-2025-15284</td>
+        <td>HIGH</td>
+        <td>6.5.3</td>
+        <td>6.14.1</td>
+    </tr>
+    <tr>
+        <td><code>sha.js</code></td>
+        <td>CVE-2025-9288</td>
+        <td>CRITICAL</td>
+        <td>2.4.11</td>
+        <td>2.4.12</td>
+    </tr>
+    <tr>
+        <td><code>systeminformation</code></td>
+        <td>CVE-2025-68154</td>
+        <td>HIGH</td>
+        <td>5.23.8</td>
+        <td>5.27.14</td>
+    </tr>
+    <tr>
+        <td><code>systeminformation</code></td>
+        <td>CVE-2026-26280</td>
+        <td>HIGH</td>
+        <td>5.23.8</td>
+        <td>5.30.8</td>
+    </tr>
+    <tr>
+        <td><code>systeminformation</code></td>
+        <td>CVE-2026-26318</td>
+        <td>HIGH</td>
+        <td>5.23.8</td>
+        <td>5.31.0</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>6.2.1</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23745</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.3</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-23950</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.4</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-24842</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.7</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar</code></td>
+        <td>CVE-2026-26960</td>
+        <td>HIGH</td>
+        <td>7.4.3</td>
+        <td>7.5.8</td>
+    </tr>
+    <tr>
+        <td><code>tar-fs</code></td>
+        <td>CVE-2025-59343</td>
+        <td>HIGH</td>
+        <td>2.1.3</td>
+        <td>3.1.1, 2.1.4, 1.16.6</td>
+    </tr>
+    <tr>
+        <td><code>tar-fs</code></td>
+        <td>CVE-2025-59343</td>
+        <td>HIGH</td>
+        <td>3.0.9</td>
+        <td>3.1.1, 2.1.4, 1.16.6</td>
+    </tr>
+    <tr>
+        <td><code>typeorm</code></td>
+        <td>CVE-2025-60542</td>
+        <td>HIGH</td>
+        <td>0.3.24</td>
+        <td>0.3.26</td>
+    </tr>
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>Python</code></h3>
-<h4>Vulnerabilities (2)</h4>
+<h4>Vulnerabilities (5)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -813,6 +4112,27 @@
         <td>HIGH</td>
         <td>66.1.1</td>
         <td>78.1.1</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td>CVE-2025-66418</td>
+        <td>HIGH</td>
+        <td>2.5.0</td>
+        <td>2.6.0</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td>CVE-2025-66471</td>
+        <td>HIGH</td>
+        <td>2.5.0</td>
+        <td>2.6.0</td>
+    </tr>
+    <tr>
+        <td><code>urllib3</code></td>
+        <td>CVE-2026-21441</td>
+        <td>HIGH</td>
+        <td>2.5.0</td>
+        <td>2.6.3</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>

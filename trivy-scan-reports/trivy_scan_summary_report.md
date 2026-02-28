@@ -1,9 +1,6 @@
 
-<h3>Target <code>mirror.gcr.io/aquasec/trivy-operator:0.26.1 (alpine 3.20.6)</code></h3>
-<h4>No Vulnerabilities found</h4>
-<h4>No Misconfigurations found</h4>
-<h3>Target <code>usr/local/bin/trivy-operator</code></h3>
-<h4>Vulnerabilities (1)</h4>
+<h3>Target <code>mirror.gcr.io/aquasec/trivy-operator:0.28.0 (alpine 3.22.1)</code></h3>
+<h4>Vulnerabilities (6)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -13,11 +10,149 @@
         <th>Fixed Version</th>
     </tr>
     <tr>
-        <td><code>stdlib</code></td>
-        <td>CVE-2025-22874</td>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69419</td>
         <td>HIGH</td>
-        <td>v1.24.2</td>
-        <td>1.24.4</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libcrypto3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-15467</td>
+        <td>CRITICAL</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69419</td>
+        <td>HIGH</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+    <tr>
+        <td><code>libssl3</code></td>
+        <td>CVE-2025-69421</td>
+        <td>HIGH</td>
+        <td>3.5.1-r0</td>
+        <td>3.5.5-r0</td>
+    </tr>
+</table>
+<h4>No Misconfigurations found</h4>
+<h3>Target <code>usr/local/bin/trivy-operator</code></h3>
+<h4>Vulnerabilities (13)</h4>
+<table>
+    <tr>
+        <th>Package</th>
+        <th>ID</th>
+        <th>Severity</th>
+        <th>Installed Version</th>
+        <th>Fixed Version</th>
+    </tr>
+    <tr>
+        <td><code>github.com/containerd/containerd</code></td>
+        <td>CVE-2024-25621</td>
+        <td>HIGH</td>
+        <td>v1.7.27</td>
+        <td>1.7.29</td>
+    </tr>
+    <tr>
+        <td><code>github.com/containerd/containerd/v2</code></td>
+        <td>CVE-2024-25621</td>
+        <td>HIGH</td>
+        <td>v2.1.3</td>
+        <td>2.0.7, 2.1.5, 2.2.0</td>
+    </tr>
+    <tr>
+        <td><code>github.com/hashicorp/go-getter</code></td>
+        <td>CVE-2025-8959</td>
+        <td>HIGH</td>
+        <td>v1.7.8</td>
+        <td>1.7.9</td>
+    </tr>
+    <tr>
+        <td><code>github.com/opencontainers/selinux</code></td>
+        <td>CVE-2025-52881</td>
+        <td>HIGH</td>
+        <td>v1.12.0</td>
+        <td>1.13.0</td>
+    </tr>
+    <tr>
+        <td><code>github.com/sigstore/timestamp-authority</code></td>
+        <td>CVE-2025-66564</td>
+        <td>HIGH</td>
+        <td>v1.2.2</td>
+        <td>2.0.3</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.36.0</td>
+        <td>1.40.0</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-68121</td>
+        <td>CRITICAL</td>
+        <td>v1.24.4</td>
+        <td>1.24.13, 1.25.7, 1.26.0-rc.3</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-47907</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.23.12, 1.24.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-58183</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.8, 1.25.2</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61726</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61728</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61729</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.11, 1.25.5</td>
+    </tr>
+    <tr>
+        <td><code>stdlib</code></td>
+        <td>CVE-2025-61730</td>
+        <td>HIGH</td>
+        <td>v1.24.4</td>
+        <td>1.24.12, 1.25.6</td>
     </tr>
 </table>
 <h4>No Misconfigurations found</h4>
