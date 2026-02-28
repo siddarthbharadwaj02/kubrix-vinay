@@ -229,7 +229,7 @@
 </table>
 <h4>No Misconfigurations found</h4>
 <h3>Target <code>usr/bin/minio</code></h3>
-<h4>Vulnerabilities (8)</h4>
+<h4>Vulnerabilities (9)</h4>
 <table>
     <tr>
         <th>Package</th>
@@ -244,6 +244,13 @@
         <td>HIGH</td>
         <td>v0.0.0-20250613113347-a6c538c5a113+dirty</td>
         <td>0.0.0-20251015170045-c1a49490c78e</td>
+    </tr>
+    <tr>
+        <td><code>go.opentelemetry.io/otel/sdk</code></td>
+        <td>CVE-2026-24051</td>
+        <td>HIGH</td>
+        <td>v1.35.0</td>
+        <td>1.40.0</td>
     </tr>
     <tr>
         <td><code>stdlib</code></td>
